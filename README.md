@@ -1,5 +1,8 @@
+<details><summary>sad joke: If OpenSSL were a GUI...</summary>
 ![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
-(c) [If OpenSSL were a GUI](https://smallstep.com/blog/if-openssl-were-a-gui/)
+(c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
+</details>
+
 
 [YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
@@ -39,15 +42,16 @@ Can be installed on Windows with Chocolatey.
 ![Seahorse screenshot](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
 
 
-[KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) written in Java. Windows, Linux, macOS.
-
-![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
-
 
 [KDE Kleopatra](https://apps.kde.org/kleopatra/) Kleopatra is a certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
 
 ![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
 
+
+[KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) KeyStore Explorer is a free GUI replacement for the Java command-line utilities keytool and jarsigner.
+Written in Java. Windows, Linux, macOS.
+
+![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
 
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
