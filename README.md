@@ -17,7 +17,8 @@
 ![ryran/pyrite screenshot](https://camo.githubusercontent.com/0e4a1650dee083ecb7d79db0d853a7f76111a150e9c46af2ad5ec713afb4c844/687474703a2f2f6231392e6f72672f6c696e75782f7079726974652f31656e635f7478742e706e67)
 
 
-[openssl-wizard](https://github.com/deviousasti/openssl-wizard) A wizard/gui to help you with using the openssl cli. Written in C#. Can be installed on Windows with Chocolatey.
+[openssl-wizard](https://github.com/deviousasti/openssl-wizard) A wizard/gui to help you with using the openssl cli. Written in C#.
+Can be installed on Windows with Chocolatey.
 ![deviousasti/openssl-wizard screenshot](https://user-images.githubusercontent.com/2375486/75088352-07941780-5572-11ea-9ac5-a078a2faf6a7.png)
 
 
