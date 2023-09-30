@@ -29,7 +29,7 @@
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
 
-[GNOME Seahorse](https://wiki.gnome.org/Apps/Seahorse) Linux only.
+[GNOME Seahorse](https://wiki.gnome.org/Apps/Seahorse) GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
 ![Seahorse screenshot](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
 
 
@@ -37,3 +37,4 @@
 ![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
 
 
+[GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
