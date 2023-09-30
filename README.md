@@ -65,7 +65,9 @@ Can be installed on Windows with Chocolatey.
 
 
 [a7crypt](https://github.com/ryran/a7crypt) GUI frontend for symmetric encryption/decryption. Bash, Zenity, Linux
+
 ![a7crypt screenshot](http://b19.org/linux/a7crypt/menuA.png)
+
 
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
