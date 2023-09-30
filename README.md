@@ -69,5 +69,16 @@ Can be installed on Windows with Chocolatey.
 ![a7crypt screenshot](http://b19.org/linux/a7crypt/menuA.png)
 
 
+[pedroalbanese/encryptcli](https://github.com/pedroalbanese/encryptcli)  OpenSSL compliant File/Text Encrypter CLI+GUI written in AutoIt3
+
+![AES File Crypter screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/415502/271795729-2ba0834d-0a4f-4390-ae94-5117e599397b.png)
+
+
+
+[OpenSSL Key and Sign Utility](https://github.com/LpCodes/OpenSSL-Key-and-Sign-Utility) Written in Python
+
+![OpenSSL-Key-and-Sign-Utility screenshot](https://raw.githubusercontent.com/LpCodes/OpenSSL-Key-and-Sign-Utility/main/image.png)
+
+
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
