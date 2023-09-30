@@ -75,6 +75,12 @@ Can be installed on Windows with Chocolatey.
 
 
 
+[Dcryptor](https://github.com/darshan-open-source/Dcryptor) encryption tool written in C++ using Qt and OpenSSL.
+It offers a wide range of algorithms and cipher modes to encrypt and decrypt strings, files and folders.
+
+![Dcryptor screenshot](https://raw.githubusercontent.com/darshan-open-source/Dcryptor/main/screenshots/Screenshot.png)
+
+
 [OpenSSL Key and Sign Utility](https://github.com/LpCodes/OpenSSL-Key-and-Sign-Utility) Written in Python
 
 ![OpenSSL-Key-and-Sign-Utility screenshot](https://raw.githubusercontent.com/LpCodes/OpenSSL-Key-and-Sign-Utility/main/image.png)
