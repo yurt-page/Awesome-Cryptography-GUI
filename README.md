@@ -1,5 +1,8 @@
-<details><summary>sad joke: If OpenSSL were a GUI...</summary>
+<details>
+<summary>sad joke: If OpenSSL were a GUI...</summary>
+
 ![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
+
 (c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
 </details>
 
