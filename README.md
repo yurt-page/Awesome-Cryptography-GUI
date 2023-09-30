@@ -7,6 +7,7 @@
 </details>
 
 
+
 [YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
 
@@ -37,6 +38,8 @@ Can be installed on Windows with Chocolatey.
 ![zengrx/openssl_ca screenshot](https://raw.githubusercontent.com/zengrx/openssl_ca/master/Doc/pictures/client.png)
 
 
+## OS tools
+
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
 
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
@@ -49,6 +52,7 @@ Can be installed on Windows with Chocolatey.
 
 
 [KDE Kleopatra](https://apps.kde.org/kleopatra/) Kleopatra is a certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
+You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
 
 ![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
 
