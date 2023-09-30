@@ -8,8 +8,8 @@
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
 
 
-[OpenSSLUI](https://sourceforge.net/projects/opensslui/) Windows only. Oldest but may still work.
-![OpenSSLUI screenshot](https://user-images.githubusercontent.com/415502/271793825-b91bdae9-509e-49bd-afc6-87d5b9a502b1.png)
+[OpenSSLUI](https://github.com/A9G-Data-Droid/OpenSSLUI) Windows based simple user interface for creating your CSR or just to create a Self Signed Certificate. Windows only.
+![OpenSSLUI screenshot](https://user-images.githubusercontent.com/26984068/128235989-164f4c8e-394f-46ec-8f4b-83cbb4d68859.jpg)
 
 [Видео Обзор OpenSSL GUI - IIS Windows 10](https://www.youtube.com/watch?v=9_ognfTeJvw)
 
