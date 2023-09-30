@@ -33,7 +33,7 @@ Written in Java. Windows, Linux, macOS.
 [OpenKeychain](https://www.openkeychain.org/) OpenPGP for Android. Integrates with K9 mail app and others.
 
 
-![OpenKeychain screenshot](https://www.openkeychain.org/public/images/screen1.png]
+![OpenKeychain screenshot](https://www.openkeychain.org/public/images/screen1.png)
 
 
 
