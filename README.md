@@ -37,4 +37,8 @@
 ![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
 
 
+[KDE Kleopatra](https://apps.kde.org/kleopatra/) Kleopatra is a certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
+![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
+
+## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
