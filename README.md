@@ -14,32 +14,40 @@
 
 
 [pyrite](https://github.com/ryran/pyrite) OpenSSL/GnuPG encryption/signing GUI for Linux implemented with Python & PyGTK
+
 ![ryran/pyrite screenshot](https://camo.githubusercontent.com/0e4a1650dee083ecb7d79db0d853a7f76111a150e9c46af2ad5ec713afb4c844/687474703a2f2f6231392e6f72672f6c696e75782f7079726974652f31656e635f7478742e706e67)
 
 
 [openssl-wizard](https://github.com/deviousasti/openssl-wizard) A wizard/gui to help you with using the openssl cli. Written in C#.
 Can be installed on Windows with Chocolatey.
+
 ![deviousasti/openssl-wizard screenshot](https://user-images.githubusercontent.com/2375486/75088352-07941780-5572-11ea-9ac5-a078a2faf6a7.png)
 
 
 [openssl_ca](https://github.com/zengrx/openssl_ca) openssl_ca with QT GUI
-![zengrx/openssl_ca screenshot](https://github.com/zengrx/openssl_ca/raw/master/Doc/pictures/client.png)
+
+![zengrx/openssl_ca screenshot](https://raw.githubusercontent.com/zengrx/openssl_ca/master/Doc/pictures/client.png)
 
 
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
+
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
 
 [GNOME Seahorse](https://wiki.gnome.org/Apps/Seahorse) GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
+
 ![Seahorse screenshot](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
 
 
 [KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) written in Java. Windows, Linux, macOS.
+
 ![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
 
 
 [KDE Kleopatra](https://apps.kde.org/kleopatra/) Kleopatra is a certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
+
 ![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
+
 
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
