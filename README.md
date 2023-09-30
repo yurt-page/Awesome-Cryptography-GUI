@@ -1,11 +1,3 @@
-<details>
-<summary>sad joke: If OpenSSL were a GUI...</summary>
-
-![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
-
-(c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
-</details>
-
 ## OS tools and user friendly cryptography GUI tools
 
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
@@ -39,6 +31,14 @@ Written in Java. Windows, Linux, macOS.
 
 ## OpenSSL GUI
 
+<details>
+<summary>sad joke: If OpenSSL were a GUI...</summary>
+
+![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
+
+(c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
+</details>
+
 [YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
 
@@ -64,6 +64,8 @@ Can be installed on Windows with Chocolatey.
 ![zengrx/openssl_ca screenshot](https://raw.githubusercontent.com/zengrx/openssl_ca/master/Doc/pictures/client.png)
 
 
+[a7crypt](https://github.com/ryran/a7crypt) GUI frontend for symmetric encryption/decryption. Bash, Zenity, Linux
+![a7crypt screenshot](http://b19.org/linux/a7crypt/menuA.png)
 
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
