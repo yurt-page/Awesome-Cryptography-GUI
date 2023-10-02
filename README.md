@@ -1,6 +1,7 @@
 ## OS tools and user friendly cryptography GUI tools
 
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
+Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key.
 
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
@@ -11,7 +12,8 @@
 
 
 
-[KDE Kleopatra](https://apps.kde.org/kleopatra/) Kleopatra is a certificate manager and a universal crypto GUI. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
+[KDE Kleopatra](https://apps.kde.org/kleopatra/) a certificate manager and a universal crypto GUI.
+It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
 You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
 
 ![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
@@ -24,7 +26,7 @@ Written in Java. Windows, Linux, macOS.
 
 
 
-[pyrite](https://github.com/ryran/pyrite) OpenSSL/GnuPG encryption/signing GUI for Linux implemented with Python & PyGTK
+[pyrite](https://github.com/stokito/pyrite) GnuPG/OpenSSL encryption/signing GUI for Linux implemented with Python & PyGTK
 
 ![ryran/pyrite screenshot](https://camo.githubusercontent.com/0e4a1650dee083ecb7d79db0d853a7f76111a150e9c46af2ad5ec713afb4c844/687474703a2f2f6231392e6f72672f6c696e75782f7079726974652f31656e635f7478742e706e67)
 
