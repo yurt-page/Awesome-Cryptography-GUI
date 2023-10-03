@@ -19,7 +19,7 @@ You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
 ![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
 
 
-[KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) KeyStore Explorer is a free GUI replacement for the Java command-line utilities keytool and jarsigner.
+[KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) - a GUI replacement for the Java command-line utilities keytool and jarsigner.
 Written in Java. Windows, Linux, macOS.
 
 ![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
