@@ -1,7 +1,7 @@
 ## OS tools and user friendly cryptography GUI tools
 
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
-Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key.
+Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key. `Proprietary`
 
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
@@ -23,6 +23,13 @@ You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
 Written in Java. Windows, Linux, macOS.
 
 ![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
+
+
+[Cypt](https://cypt.osyne.com/) - a nice and clean PGP GUI for macOS. `Proprietary`
+
+![Cypt screenshot](https://user-images.githubusercontent.com/415502/272812889-fa41622c-3791-48c5-bbee-cfbb8ebb4b80.png)
+
+
 
 
 
