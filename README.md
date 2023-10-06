@@ -1,7 +1,7 @@
 ## OS tools and user friendly cryptography GUI tools
 
 [Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
-Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key. `Proprietary`
+Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key. You can use IIS webserver managemnt console to generate a cert.`Proprietary`
 
 ![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
@@ -29,6 +29,13 @@ Written in Java. Windows, Linux, macOS.
 
 ![Cypt screenshot](https://user-images.githubusercontent.com/415502/272812889-fa41622c-3791-48c5-bbee-cfbb8ebb4b80.png)
 
+
+
+[XCA](https://github.com/chris2511/xca) - X Certificate and Key Management.
+A powerful tool to build PKI.
+Linux, macOS, Windows.
+
+![XCA screenshot](https://user-images.githubusercontent.com/415502/273336796-61e55d95-2b3e-4d55-bd46-8020d62566ab.png)
 
 
 
