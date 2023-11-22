@@ -121,31 +121,32 @@ GUI software for verifying, signing, encrypting & decrypting PGP-protected files
 Has support for managing a PGP keychain, creating, deleting, import & exporting keypairs.
 [Homepage](https://www.goanywhere.com/products/open-pgp-studio) | [Backup of v1.2.2 x64](https://web.archive.org/web/20231120223315/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_2_windows-x64.exe) | [Backup of v1.2.1 x86/x64](https://web.archive.org/web/20231120223425/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_1_windows.exe)
 
-![OpenPGP-Studio](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
+![OpenPGP-Studio screenshot](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
 
 **SignGUI**
 The most reliable frontend for Microsoft's Signtool.exe program (from the Windows SDK Tools).
 Supports Signtool.exe version 6.3 or later, cans handle SHA2 signatures & dual-signing.
 [Homepage](https://www.briggsoft.com/signgui.htm)
 
-![sgbig](https://user-images.githubusercontent.com/131653305/284413619-44b181f3-b6d0-4ba5-a129-cc03d714a4f5.png)
+![SignGUI screenshot](https://user-images.githubusercontent.com/131653305/284413619-44b181f3-b6d0-4ba5-a129-cc03d714a4f5.png)
 
 **MGTEK SmartCard Tools**
 An alternative to the Gemalto MiniDriver Manager that supports running Microsoft's Signtool.exe with preconfigured smartcard PINs.
 Provides both a command-line ScSigntool.exe utility and its smartcard MiniDriver manager.
 [Homepage](https://www.mgtek.com/smartcard)
 
-![screenshot](https://user-images.githubusercontent.com/131653305/284414889-b4d9701f-4697-4b7a-b3f3-60c0312689eb.png)
+![MGTEK screenshot](https://user-images.githubusercontent.com/131653305/284414889-b4d9701f-4697-4b7a-b3f3-60c0312689eb.png)
 
 **PKI Solutions ASN.1 Editor**
 Forensic-grade ASN.1 object inspector, cans handle PKCS#12, PKCS#7, PEM, DER or Hex dumps.
 Cans also surgically edit certificates & CSR requests, allows arbitrary data modifications.
 [Homepage](https://github.com/PKISolutions/Asn1Editor.WPF) | [Download](https://github.com/PKISolutions/Asn1Editor.WPF/releases)
 
-![81295846-b62bfc80-9079-11ea-879a-d9472a3f5d9b](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
+![PKI Solutions ASN.1 Editor screenshot](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
 
 
-**P7S Signer**
+
+[P7S Signer screenshot](https://www.signfiles.com/p7s-signer/)
 A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. Uses .NET
 ![P7S Signer](https://www.signfiles.com/resources/P7SSigner.jpg)
  
