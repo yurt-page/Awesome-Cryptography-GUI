@@ -145,5 +145,11 @@ Cans also surgically edit certificates & CSR requests, allows arbitrary data mod
 ![81295846-b62bfc80-9079-11ea-879a-d9472a3f5d9b](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
 
 
+**P7S Signer**
+A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. Uses .NET
+![P7S Signer](https://www.signfiles.com/resources/P7SSigner.jpg)
+ 
+
+
 ## See also
 [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
