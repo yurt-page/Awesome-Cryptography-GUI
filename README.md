@@ -153,4 +153,6 @@ A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. 
 
 
 ## See also
-[GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
+
+* [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
+* [PGP-GUI](https://github.com/stokito/PGP-UI) - a Java Swing app based on Bouncy Castle
