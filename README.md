@@ -151,6 +151,7 @@ A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. 
 ![P7S Signer](https://www.signfiles.com/resources/P7SSigner.jpg)
  
 
+[cryptool](https://www.cryptool.org) is a set of GUI tools and some of them are open source like [jcryptool](https://github.com/jcryptool/core). The compamy also has a good YouTube channel [Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody)
 
 ## See also
 
