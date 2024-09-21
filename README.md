@@ -1,5 +1,5 @@
 #### Work-In-Progress (rearranging things and adding more lesser known PKI softwares)
-In order: freeware-proprietary / paid-proprietary / free-opensource
+In order: freeware-proprietary / freeware-opensource / paid-proprietary
 
 # Awesome Cryptography GUI Tools
 Making the list of available OS tools for cryptography and user-friendly cryptography GUI tools.
@@ -95,6 +95,17 @@ It nonetheless stays free unlike what the official homepage says, since only the
 The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to be limited much if at all, with some hidden functionalities being revealed if you purchase its *Operator Token* from a reseller.
 
 The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
+
+### XCA
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
+
+![XCA running on Windows 7.](https://i.postimg.cc/WbfqB0dg/XCA.png)
+
+This is the singlehandedly most useful certificate management utility known to date for a GUI *OpenSSL* utility. This is the most complete one in terms of managing a full *Certificate Authority* with certificate revocation lists.
+
+It features an extraordinary set of supported public & private keys, ranging from PKCS1 to PKCS8 encoding for x509 authentication or SSH connection. Its feature set for PGP is however limited to managing and converting only the public & private keys instead of managing the PGP certificates as well.
+
+It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
 
 ### ActivClient
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
