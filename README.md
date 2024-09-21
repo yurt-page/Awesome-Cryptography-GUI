@@ -153,6 +153,37 @@ It finally also supports PKCS12 keystores among others alongwith PKCS11 if you p
 ## Android
 These are applications that run only on Android.
 
+### Root Certificate Manager
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/root-certificate-manager-root/net.jolivier.cert.Importer)
+
+![Root Certificate Manager running on Android.](https://i.postimg.cc/nhW3dsKh/Root-Certificate-Manager.png)
+
+This is the equivalent of the **Windows Certificate Manager Snap-In** but for Android instead. This application requires *Root* access (just like regular Linux systems) and cans import custom Root certificates into your system's trusted keystore.
+
+This allows you to entirely bypass user-imported CA restrictions added in Android 7.0 Nougat up to Android 9.0 Pie, with Android 10 permanently locking the Android system partition in read-only mode.
+
+The user-imported CA restrictions impose that your custom certificates aren't trusted by default for intercepting Android apps' network traffic, requiring you to recompile them with a flag that explicitly allows custom user-imported CA certificates.
+
+This utility is therefore a Trusted Root Certificate import utility just like Windows's own and will only work up to Android 9.0 due to newer Android OS versions' limitations.
+
+### Dory Cert
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/dory-certificate-rsa-csr-x5/io.tempage.dorycert)
+
+![Dory Cert running on Android.](https://i.postimg.cc/bw6w4PdJ/Dory-Cert.png)
+
+This application is a keystore manager that supports PKCS12 and x509 certificates. It also supports both public & private keys in both PEM & binary formats (PGP is however not supported).
+
+It as well includesthe ability to inspect certificates & cryptographic keyfiles, additionally to creating new certificates and private keys. Most of the rest is common functionaliy such as importing & exporting certificates & keys.
+
+### x509 Certificate KeyStore Generator
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/x509-certificate-keystore-gene/main.scheka.ew.certificatgenerator)
+
+![x509 Certificate KeyStore Generator running on Android.](https://i.postimg.cc/MpXSMQK6/x509-Certificate-Key-Store-Generator.png)
+
+Describing the features of this app would be pretty long, it's basically **makecert.exe** but for Android. Additionally, it supports all OpenSSL certificate generation options.
+
+You can generate *Root certificates* and your own TLS certificates directly from your mobile phone with it.
+
 ### OpenKeyChain
 ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.openkeychain.org/)
 
@@ -164,13 +195,3 @@ It features the basic functionalities of encryption & decryption, digital signat
 
 Example applications using it are [K9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) and [Conversations.im](https://f-droid.org/en/packages/eu.siacs.conversations/). One more lesser talked-about feature of OpenKeyChain is the ability to use a *YubiKey* NFC device for secure cryptographic operations.
 
-### Root Certificate Manager
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/root-certificate-manager-root/net.jolivier.cert.Importer)
-
-![Root Certificate Manager running on Android.](https://i.postimg.cc/nhW3dsKh/Root-Certificate-Manager.png)
-
-This is the equivalent of the **Windows Certificate Manager Snap-In** but for Android instead. This application requires *Root* access (just like regular Linux systems) and cans import custom Root certificates into your system's trusted keystore.
-
-This allows you to entirely bypass user-imported CA restrictions added in Android 7.0 Nougat up to Android 9.0 Pie, with Android 10 permanently locking the Android system partition in read-only mode. The user-imported CA restrictions impose that your custom certificates aren't trusted by default for intercepting Android apps' network traffic, requiring you to recompile them with a flag that explicitly allows custom user-imported CA certificates.
-
-This utility is therefore a Trusted Root Certificate import utility just like Windows's own and will only work up to Android 9.0 due to newer Android OS versions' limitations.
