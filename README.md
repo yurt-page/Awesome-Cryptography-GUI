@@ -1,5 +1,10 @@
 #### Work-In-Progress (rearranging things and adding more lesser known PKI softwares)
-In order: freeware-proprietary / freeware-opensource / paid-proprietary
+In order:
+- freeware-proprietary
+- freeware-opensource
+- paid-proprietary
+
+I will do the Linux utilities later on, and finally the Mac OS ones.
 
 # Awesome Cryptography GUI Tools
 Making the list of available OS tools for cryptography and user-friendly cryptography GUI tools.
@@ -195,3 +200,18 @@ It features the basic functionalities of encryption & decryption, digital signat
 
 Example applications using it are [K9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) and [Conversations.im](https://f-droid.org/en/packages/eu.siacs.conversations/). One more lesser talked-about feature of OpenKeyChain is the ability to use a *YubiKey* NFC device for secure cryptographic operations.
 
+### Android PIN Unblocker
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/android-pin-unblocker/)
+
+![Android PIN Unblocker running on Android.](https://i.postimg.cc/tTjw5ZyV/Android-PIN-Unblocker.png)
+
+This application allows you to generate unblock codes for PKI smartcards using your Admin key and phone. These are used incase you accidentally (or intentionally) block your smartcard PIN codes.
+
+So its purpose is to generate smartcard unblock codes using your Admin key and phone instead of requiring a computer, incase you cannot accept to type your Admin key while being observed by nearby employees of staff, for example.
+
+The purpose of the QR Code scanning functionality is to allow quick unblocking of smartcards, since you can then simply:
+- make a QR Code for the Request code (e.g. using [CodeTwo QR Code Desktop Reader & Generator](https://www.codetwo.com/freeware/qr-code-desktop-reader/)),
+- click on Generate to get your Response Code,
+- click on the Share button and share it to a QR Code generator app,
+- on the computer scan the Response QR Code from your webcam,
+- the rest is a matter of copy-pasting text.
