@@ -166,6 +166,32 @@ Its feature set is now considerably better than the Java keytool program that it
 
 KeyStore Explorer has now climbed to being a full Java KeyStore manager, that also offers the ability to do cryptographic operations and convert public/private keys between different formats.
 
+## Linux
+These programs only run on Linux OS distros.
+
+### GNOME Seahorse
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://wiki.gnome.org/Apps/Seahorse)
+
+![GNOME Seahorse running on Linux.](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
+
+GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
+
+### Pyrite
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/stokito/pyrite)
+
+![Pyrite running on Linux](http://b19.org/linux/pyrite/1enc_txt.png)
+
+GnuPG/OpenSSL encryption/signing GUI for Linux implemented with Python & PyGTK.
+
+### a7crypt
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/ryran/a7crypt)
+
+![a7crypt running on Linux](http://b19.org/linux/a7crypt/menuA.png)
+
+GUI frontend for symmetric encryption/decryption.
+
+Bash, Zenity, Linux
+
 ## Android
 These are applications that run only on Android.
 
