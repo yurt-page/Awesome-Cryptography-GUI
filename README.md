@@ -149,3 +149,17 @@ This is the singlehandedly most useful certificate management utility known to d
 It features an extraordinary set of supported public & private keys, ranging from PKCS1 to PKCS8 encoding for x509 authentication or SSH connection. Its feature set for PGP is however limited to managing and converting only the public & private keys instead of managing the PGP certificates as well.
 
 It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
+
+## Android
+These are applications that run only on Android.
+
+### OpenKeyChain
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.openkeychain.org/)
+
+![OpenKeyChain running on Android.](https://www.openkeychain.org/public/images/screen1.png)
+
+Simple and efficient PGP key management software, it allows other Android applications to do PGP cryptographic operations with its own API and is supported by many Android email clients & messaging apps.
+
+It features the basic functionalities of encryption & decryption, digital signature & their verification in the OpenKeyChain application itself. You should nonetheless think of it as a *Secure PGP Framework for other Android applications*.
+
+Example applications using it are [K9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) and [Conversations.im](https://f-droid.org/en/packages/eu.siacs.conversations/). One more lesser talked-about feature of OpenKeyChain is the ability to use a *YubiKey* NFC device for secure cryptographic operations.
