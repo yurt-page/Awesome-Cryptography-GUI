@@ -83,6 +83,19 @@ It as well allows on supported smartcards (many actually) to set their Security 
 
 Very useful for hardening the Security Policy of your digital signature tokens and e.g. block them upon the first failed PIN attempt.
 
+### VersaSec vSEC_CMS_K
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-cms/)
+
+![VersaSec vSEC_CMS_K running on Windows 7.](https://i.postimg.cc/Y9VjJ3sP/v-SEC-CMS-K.png)
+
+This utility is a more advanced version of the vSEC_TOOL_K from VersaSec for PKI smartcards. It even supports Biometric Policies if your PKI smartcard (here USB Token) has a fingerprint reader.
+
+It nonetheless stays free unlike what the official homepage says, since only the vSEC_CMS_T & vSEC_CMS_S products require a license to be purchased before using them.
+
+The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to be limited much if at all, with some hidden functionalities being revealed if you purchase its *Operator Token* from a reseller.
+
+The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
+
 ### ActivClient
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
 
