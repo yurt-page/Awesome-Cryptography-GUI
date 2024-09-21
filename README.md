@@ -197,6 +197,15 @@ GUI frontend for symmetric encryption/decryption.
 
 Bash, Zenity, Linux
 
+## Mac OS
+
+### Cypt
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://en.freedownloadmanager.org/Mac-OS/Cypt-FREE.html)
+
+![Cypt running on Mac OS.](https://1786035589.rsc.cdn77.org/s_mac/502/502872_4.png)
+
+Nice and clean PGP GUI for Mac OS. Proprietary.
+
 ## Android
 These are applications that run only on Android.
 
@@ -258,10 +267,10 @@ The purpose of the QR Code scanning functionality is to allow quick unblocking o
 - on the computer scan the Response QR Code from your webcam,
 - the rest is a matter of copy-pasting text.
 
-## See also
+## See Also
 
 * [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core).
   - The compamy also has a good YouTube channel ([Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody))
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
 * [PGP-GUI](https://github.com/stokito/PGP-UI): a Java Swing app based on Bouncy Castle
-* [oSSLSignCode](https://github.cosslsigncodeom/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
+* [oSSLSignCode](https://github.com/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
