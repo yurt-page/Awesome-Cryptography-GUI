@@ -1,10 +1,4 @@
 #### Work-In-Progress (rearranging things and adding more lesser known PKI softwares)
-In order:
-- freeware-proprietary
-- freeware-opensource
-- paid-proprietary
-
-I will do the Linux utilities later on, and finally the Mac OS ones.
 
 # Awesome Cryptography GUI Tools
 Making the list of available OS tools for cryptography and user-friendly cryptography GUI tools.
@@ -263,3 +257,11 @@ The purpose of the QR Code scanning functionality is to allow quick unblocking o
 - click on the Share button and share it to a QR Code generator app,
 - on the computer scan the Response QR Code from your webcam,
 - the rest is a matter of copy-pasting text.
+
+## See also
+
+* [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core).
+  - The compamy also has a good YouTube channel ([Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody))
+* [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
+* [PGP-GUI](https://github.com/stokito/PGP-UI): a Java Swing app based on Bouncy Castle
+* [oSSLSignCode](https://github.cosslsigncodeom/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
