@@ -116,6 +116,15 @@ Its price is nonetheless highly expensive for the little it brings compared to u
 
 It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
 
+### SignFiles.com Signer Tools
+![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
+
+![P7S Signer running on Windows 10.](https://www.signfiles.com/resources/P7SSigner.jpg)
+
+A proprietary suite of paid digital signature GUI tools for Windows. They support CAdES, eIDAS, QSCD and other norms.
+
+It uses .NET Framwork and the software suite features a **PDF**, **P7S**, **XML** & **DOCX Signer**.
+
 ## Cross-Platform
 These programs can run of multiple operating systems (generally thanks to QtFramework or Java).
 
