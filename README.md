@@ -101,6 +101,17 @@ The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to
 
 The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
 
+### Crypto Stuff
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](http://jacquelin.potier.free.fr/CryptoStuff/)
+
+![Crypto Stuff running on Windows 7.](https://i.postimg.cc/gjqZZ7sZ/Crypto-Stuff.png)
+
+A full-featured cryptography software for trying out symmetric & asymmetric ciphers such as AES, RSA, Blowfish, Twofish, and so on.
+
+You can do hashing, encryption, decryption, signing and verification using this tool. It's literally as if it was a GUI frontend for .NET Framework's System.Cryptography namespace, if you want a developer joke.
+
+It's pure gold. It's even useful for reverse-engineering cryptographic ciphers & proprietary file formats.
+
 ### PKI Solutions ASN1 Editor
 ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/PKISolutions/Asn1Editor.WPF)
 
