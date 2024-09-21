@@ -1,179 +1,276 @@
-## OS tools and user friendly cryptography GUI tools
+#### Work-In-Progress (rearranging things and adding more lesser known PKI softwares)
 
-[Windows Certificate Manager Tool (certmgr.msc)](https://learn.microsoft.com/en-us/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)
-Manage storage for x509 keys. No support for PGP/GPG. Can't sign or encode, can't generate a key. You can use IIS webserver managemnt console to generate a cert.`Proprietary`
+# Awesome Cryptography GUI Tools
+Making the list of available OS tools for cryptography and user-friendly cryptography GUI tools.
 
-![certmgr screenshot](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
+## Categories
+* [Windows](#windows)
+* [Linux](#linux)
+* [Mac OS](#mac-os)
+* [Android](#android)
+* [Cross-Platform](#cross-platform)
 
+## Windows
+These utilities only run on Windows (not cross-platform).
 
-[GNOME Seahorse](https://wiki.gnome.org/Apps/Seahorse) GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
+### Windows Certificate Manager Snap-In
+![Freeware and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) ![No homepage is available.](https://img.shields.io/badge/No_Homepage-gray)
 
-![Seahorse screenshot](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
+![certmgr.msc running on Windows 8.1.](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
+Microsoft's built-in solution for managing the Windows operating system's certificate stores.
 
+It only supports x509 certificates and the available certificate stores are defined by Microsoft (**Root**, **Enterprise**, **Personal** ...). It's not intended to sign or encrypt data (cryptographic operations), it only manages the certificates themselves.
 
-[KDE Kleopatra](https://apps.kde.org/kleopatra/) a certificate manager and a universal crypto GUI.
-It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
-You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
+No support for PGP certificates either. Such certificates are decentralized without a Certificate Authority, so it would make no sense for Microsoft to support them in the Certificate Manager snap-in.
 
-![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
+Windows 8.1 & earlier uses **certmgr.msc** while Windows 10 & later uses **certmgmt.msc** as the filename.
 
+### SignGUI
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.briggsoft.com/signgui.htm)
 
-[KeyStore Explorer](https://github.com/kaikramer/keystore-explorer) - a GUI replacement for the Java command-line utilities keytool and jarsigner.
-Written in Java. Windows, Linux, macOS.
+![SignGUI running on Windows 7.](https://i.postimg.cc/NMZWh97D/SignGUI.png)
 
-![KeyStore Explorer screenshot](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
+This is the most reliable GUI frontend for Microsoft's **signtool.exe** program (from the Windows SDK Tools). It supports signtool.exe version 6.3 or later, and cans handle SHA2 signatures with dual-signing.
 
+This software doesn't ship with the Windows Signtool utility that you can get separately from the [Wayback Machine](https://archive.org/details/windowssdk). The official download for the Windows 8.1 SDK is now broken because Microsoft removed its required setup files from their servers.
 
-[Cypt](https://cypt.osyne.com/) - a nice and clean PGP GUI for macOS. `Proprietary`
+### MGTEK SmartCard Tools
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.mgtek.com/smartcard)
 
-![Cypt screenshot](https://user-images.githubusercontent.com/415502/272812889-fa41622c-3791-48c5-bbee-cfbb8ebb4b80.png)
+![MGTEK SmartCard Tools running on Windows 10.](https://user-images.githubusercontent.com/131653305/284414889-b4d9701f-4697-4b7a-b3f3-60c0312689eb.png)
 
+An alternative to the [Gemalto MiniDriver Manager](#gemalto-minidriver-manager) that supports running Microsoft's signtool.exe with pre-configured smartcard PINs.
 
+It provides both a command-line **ScSigntool.exe** utility and a graphical smartcard minidriver manager (that additionally allows renaming certificate slots on a smartcard compared to Gemalto's).
 
-[GpgFrontend](https://www.gpgfrontend.bktus.com/) - a powerful OpenPGP Crypto Tool. Windows, macOS, Linux.
+### Gemalto MiniDriver Manager
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sysparm_article=KB0017162)
 
-![GpgFrontend screenshot](https://user-images.githubusercontent.com/415502/273472254-de17b125-e1e7-4d76-8386-e09415353c3c.png)
+![MGTEK SmartCard Tools running on Windows 7.](https://i.postimg.cc/N048XWzw/Gemalto-Mini-Driver-Manager-2-4-6.png)
 
+This is the most famous minidriver manager online for smartcards. It allows essential functionality in order to make use of PKI smartcards, since Windows has no built-in facilities for managing them.
 
-[XCA](https://github.com/chris2511/xca) - X Certificate and Key Management.
-A powerful tool to build PKI.
-Linux, macOS, Windows.
+Albeit coming from Gemalto (now Thales (now Entrust)), it supports all brands of PKI cards. Actually it's only a few specific sensitive operations such as **Card Factory Reset** & **PIN Policy Management** that are unsupported with HID Global's Crescendo PKI products (requires [ActivClient](#activclient) which is not free).
 
-![XCA screenshot](https://user-images.githubusercontent.com/415502/273336796-61e55d95-2b3e-4d55-bd46-8020d62566ab.png)
+### Microsoft PIN Tool
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.catalog.update.microsoft.com/Search.aspx?q=KB909520)
 
+![Microsoft PIN Tool running on Windows 7.](https://i.postimg.cc/HnsTx77g/Microsoft-PIN-Tool.png)
 
+This is a lesser known utility since it's very old (originally for Windows XP) that cans be used standalone to change PKI smartcard PIN codes & also unblock PINs with Admin keys. It does for the end-user the same basic job as popular & expensive card management softwares from big companies (PIN change & PIN unblock).
 
+The Microsoft PIN Tool is also available unofficially with the ability to handle [ActivClient](#activclient) cards, as my [Microsoft PIN Tool ActivID Mod](#microsoft-pin-tool-activid-mod).
 
-[pyrite](https://github.com/stokito/pyrite) GnuPG/OpenSSL encryption/signing GUI for Linux implemented with Python & PyGTK
+### Microsoft PIN Tool ActivID Mod
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/microsoft-pin-tool)
 
-![ryran/pyrite screenshot](https://camo.githubusercontent.com/0e4a1650dee083ecb7d79db0d853a7f76111a150e9c46af2ad5ec713afb4c844/687474703a2f2f6231392e6f72672f6c696e75782f7079726974652f31656e635f7478742e706e67)
+![Microsoft PIN Tool ActivID Mod running on Windows 7.](https://i.postimg.cc/NMdWdCL3/Microsoft-PIN-Tool-Activ-ID-Mod.png)
+
+The Microsoft PIN Tool modified for ActivClient-initialized PKI smartcards (HID Global cards with a static unblock code). It successfully unblocks ActivClient Crescendo cards without using the official ActivClient PIN Initialization Tool.
+
+Your static unblock code is always the Response code to unblock the card and set a new User PIN. This modification means there's no need to use [ActivClient](#activclient) anymore for unblocking HID Crescendo cards.
+
+### VersaSec vSEC_TOOL_K
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-tool-k/)
+
+![VersaSec vSEC_TOOL_K running on Windows 7.](https://i.postimg.cc/85g0tQ1X/v-SEC-TOOL-K.png)
+
+VersaSec's free utility for advanced PKI smartcard management, with the ability to change PIN, unblock PIN and also change the Admin key.
+
+It as well allows on supported smartcards (many actually) to set their Security Policy such as the maximum PIN try count and character restrictions (e.g. no letters).
+
+Very useful for hardening the Security Policy of your digital signature tokens and e.g. block them upon the first failed PIN attempt.
+
+### VersaSec vSEC_CMS_K
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-cms/)
+
+![VersaSec vSEC_CMS_K running on Windows 7.](https://i.postimg.cc/Y9VjJ3sP/v-SEC-CMS-K.png)
+
+This utility is a more advanced version of the vSEC_TOOL_K from VersaSec for PKI smartcards. It even supports Biometric Policies if your PKI smartcard (here USB Token) has a fingerprint reader.
+
+It nonetheless stays free unlike what the official homepage says, since only the vSEC_CMS_T & vSEC_CMS_S products require a license to be purchased before using them.
+
+The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to be limited much if at all, with some hidden functionalities being revealed if you purchase its *Operator Token* from a reseller.
+
+The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
+
+### Crypto Stuff
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](http://jacquelin.potier.free.fr/CryptoStuff/)
+
+![Crypto Stuff running on Windows 7.](https://i.postimg.cc/gjqZZ7sZ/Crypto-Stuff.png)
+
+A full-featured cryptography software for trying out symmetric & asymmetric ciphers such as AES, RSA, Blowfish, Twofish, and so on.
+
+You can do hashing, encryption, decryption, signing and verification using this tool. It's literally as if it was a GUI frontend for .NET Framework's System.Cryptography namespace, if you want a developer joke.
+
+It's pure gold. It's even useful for reverse-engineering cryptographic ciphers & proprietary file formats.
+
+### PKI Solutions ASN1 Editor
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/PKISolutions/Asn1Editor.WPF)
+
+![PKI Solutions ASN1 Editor running on Windows 10.](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
+
+Forensic-grade ASN.1 object inspector, it cans handle PKCS#12, PKCS#7, PEM, DER or Hex dumps. It cans also surgically edit certificates & CSR requests, it allows arbitrary data modifications.
+
+This tool is gold for debugging faulty certificates & public or private keys in binary format. It also contains a built-in DER/PEM data converter for switching between binary & text file formats.
+
+### ActivClient
+![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
+
+![ActivClient running on Windows 7.](https://i.postimg.cc/k4h72gNR/Activ-Client.png)
+
+HID Global's PKI middleware for Crescendo smartcard products, it also supports many more PKI smartcard brands.
+
+Its price is nonetheless highly expensive for the little it brings compared to using the already existing & free minidriver managers found online. Its main selling point appears to be the ability to use its PKCS11 library (*acpkcs11.dll*) & import Root certificates into smartcards of its own brand.
+
+It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
+
+### SignFiles.com Signer Tools
+![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
+
+![P7S Signer running on Windows 10.](https://www.signfiles.com/resources/P7SSigner.jpg)
+
+A proprietary suite of paid digital signature GUI tools for Windows. They support CAdES, eIDAS, QSCD and other norms.
+
+It uses .NET Framwork and the software suite features a **PDF**, **P7S**, **XML** & **DOCX Signer**.
+
+## Cross-Platform
+These programs can run of multiple operating systems (generally thanks to QtFramework or Java).
+
+### Fortra Open PGP Studio
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.goanywhere.com/products/open-pgp-studio)
+
+![Fortra Open PGP Studio running on Windows 7.](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
+
+Simple and efficient PGP management software, with a good user interface. It has the ability to both manage PGP keys and also do cryptographic operations (namely decrypting, encrypting, verifying & signing data).
+
+This utility also supports creating new PGP keys, additionally to importing and exporting them.
+
+Windows versions of [Open PGP Studio v1.2.2 (x64)](https://web.archive.org/web/20231120223315/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_2_windows-x64.exe) and [Open PGP Studio v1.2.1 (x86/x64)](https://web.archive.org/web/20231120223425/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_1_windows.exe) are available for direct download as well (so no need for a good temporary email service).
+
+### XCA
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
+
+![XCA running on Windows 7.](https://i.postimg.cc/WbfqB0dg/XCA.png)
+
+This is the singlehandedly most useful certificate management utility known to date for a GUI *OpenSSL* utility. This is the most complete one in terms of managing a full *Certificate Authority* with certificate revocation lists.
+
+It features an extraordinary set of supported public & private keys, ranging from PKCS1 to PKCS8 encoding for x509 authentication or SSH connection. Its feature set for PGP is however limited to managing and converting only the public & private keys instead of managing the PGP certificates as well.
+
+It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
+
+### KeyStore Explorer
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/kaikramer/keystore-explorer)
+
+![KeyStore Explorer running on Windows 10.](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
+
+Very useful and complete utility for managing PKCS12 & Java Keystores. While it's mostly known for managing certificates it also possesses less talked-about features such as the ability to sign JAR files and sign JWT tokens.
+
+Its feature set is now considerably better than the Java keytool program that it initially wanted to be a GUI frontend for.
+
+KeyStore Explorer has now climbed to being a full Java KeyStore manager, that also offers the ability to do cryptographic operations and convert public/private keys between different formats.
+
+## Linux
+These programs only run on Linux OS distros.
+
+### GNOME Seahorse
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://wiki.gnome.org/Apps/Seahorse)
+
+![GNOME Seahorse running on Linux.](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
+
+GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
+
+### Pyrite
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/stokito/pyrite)
+
+![Pyrite running on Linux](http://b19.org/linux/pyrite/1enc_txt.png)
+
+GnuPG/OpenSSL encryption/signing GUI for Linux implemented with Python & PyGTK.
+
+### a7crypt
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/ryran/a7crypt)
+
+![a7crypt running on Linux](http://b19.org/linux/a7crypt/menuA.png)
+
+GUI frontend for symmetric encryption/decryption.
+
+Bash, Zenity, Linux
+
+## Mac OS
+
+### Cypt
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://en.freedownloadmanager.org/Mac-OS/Cypt-FREE.html)
+
+![Cypt running on Mac OS.](https://1786035589.rsc.cdn77.org/s_mac/502/502872_4.png)
+
+Nice and clean PGP GUI for Mac OS. Proprietary.
 
 ## Android
+These are applications that run only on Android.
 
-[OpenKeychain](https://www.openkeychain.org/) OpenPGP for Android. Integrates with K9 mail app and others.
+### Root Certificate Manager
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/root-certificate-manager-root/net.jolivier.cert.Importer)
 
+![Root Certificate Manager running on Android.](https://i.postimg.cc/nhW3dsKh/Root-Certificate-Manager.png)
 
-![OpenKeychain screenshot](https://www.openkeychain.org/public/images/screen1.png)
+This is the equivalent of the **Windows Certificate Manager Snap-In** but for Android instead. This application requires *Root* access (just like regular Linux systems) and cans import custom Root certificates into your system's trusted keystore.
 
+This allows you to entirely bypass user-imported CA restrictions added in Android 7.0 Nougat up to Android 9.0 Pie, with Android 10 permanently locking the Android system partition in read-only mode.
 
+The user-imported CA restrictions impose that your custom certificates aren't trusted by default for intercepting Android apps' network traffic, requiring you to recompile them with a flag that explicitly allows custom user-imported CA certificates.
 
-## OpenSSL GUI
+This utility is therefore a Trusted Root Certificate import utility just like Windows's own and will only work up to Android 9.0 due to newer Android OS versions' limitations.
 
-<details>
-<summary>sad joke: If OpenSSL were a GUI...</summary>
+### Dory Cert
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/dory-certificate-rsa-csr-x5/io.tempage.dorycert)
 
-![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
+![Dory Cert running on Android.](https://i.postimg.cc/bw6w4PdJ/Dory-Cert.png)
 
-(c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
-</details>
+This application is a keystore manager that supports PKCS12 and x509 certificates. It also supports both public & private keys in both PEM & binary formats (PGP is however not supported).
 
-[YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
-![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
+It as well includesthe ability to inspect certificates & cryptographic keyfiles, additionally to creating new certificates and private keys. Most of the rest is common functionaliy such as importing & exporting certificates & keys.
 
+### x509 Certificate KeyStore Generator
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/x509-certificate-keystore-gene/main.scheka.ew.certificatgenerator)
 
-[OpenSSLUI](https://github.com/A9G-Data-Droid/OpenSSLUI) Windows based simple user interface for creating your CSR or just to create a Self Signed Certificate. Windows only.
-![OpenSSLUI screenshot](https://user-images.githubusercontent.com/26984068/128235989-164f4c8e-394f-46ec-8f4b-83cbb4d68859.jpg)
+![x509 Certificate KeyStore Generator running on Android.](https://i.postimg.cc/MpXSMQK6/x509-Certificate-Key-Store-Generator.png)
 
-[Видео Обзор OpenSSL GUI - IIS Windows 10](https://www.youtube.com/watch?v=9_ognfTeJvw)
+Describing the features of this app would be pretty long, it's basically **makecert.exe** but for Android. Additionally, it supports all OpenSSL certificate generation options.
 
+You can generate *Root certificates* and your own TLS certificates directly from your mobile phone with it.
 
-[GUI_OpenSSL](https://github.com/Vasquiinho/GUI_OpenSSL). Written in Python with GTK. Ubuntu but may work on Windows.
-![Vasquiinho/GUI_OpenSSL screenshot](https://raw.githubusercontent.com/Vasquiinho/GUI_OpenSSL/master/Image/apresentacao.PNG)
+### OpenKeyChain
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.openkeychain.org/)
 
+![OpenKeyChain running on Android.](https://www.openkeychain.org/public/images/screen1.png)
 
-[openssl-wizard](https://github.com/deviousasti/openssl-wizard) A wizard/gui to help you with using the openssl cli. Written in C#.
-Can be installed on Windows with Chocolatey.
+Simple and efficient PGP key management software, it allows other Android applications to do PGP cryptographic operations with its own API and is supported by many Android email clients & messaging apps.
 
-![deviousasti/openssl-wizard screenshot](https://user-images.githubusercontent.com/2375486/75088352-07941780-5572-11ea-9ac5-a078a2faf6a7.png)
+It features the basic functionalities of encryption & decryption, digital signature & their verification in the OpenKeyChain application itself. You should nonetheless think of it as a *Secure PGP Framework for other Android applications*.
 
+Example applications using it are [K9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) and [Conversations.im](https://f-droid.org/en/packages/eu.siacs.conversations/). One more lesser talked-about feature of OpenKeyChain is the ability to use a *YubiKey* NFC device for secure cryptographic operations.
 
-[openssl_ca](https://github.com/zengrx/openssl_ca) openssl_ca with QT GUI
+### Android PIN Unblocker
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/android-pin-unblocker/)
 
-![zengrx/openssl_ca screenshot](https://raw.githubusercontent.com/zengrx/openssl_ca/master/Doc/pictures/client.png)
+![Android PIN Unblocker running on Android.](https://i.postimg.cc/tTjw5ZyV/Android-PIN-Unblocker.png)
 
+This application allows you to generate unblock codes for PKI smartcards using your Admin key and phone. These are used incase you accidentally (or intentionally) block your smartcard PIN codes.
 
-[a7crypt](https://github.com/ryran/a7crypt) GUI frontend for symmetric encryption/decryption. Bash, Zenity, Linux
+So its purpose is to generate smartcard unblock codes using your Admin key and phone instead of requiring a computer, incase you cannot accept to type your Admin key while being observed by nearby employees of staff, for example.
 
-![a7crypt screenshot](http://b19.org/linux/a7crypt/menuA.png)
+The purpose of the QR Code scanning functionality is to allow quick unblocking of smartcards, since you can then simply:
+- make a QR Code for the Request code (e.g. using [CodeTwo QR Code Desktop Reader & Generator](https://www.codetwo.com/freeware/qr-code-desktop-reader/)),
+- click on Generate to get your Response Code,
+- click on the Share button and share it to a QR Code generator app,
+- on the computer scan the Response QR Code from your webcam,
+- the rest is a matter of copy-pasting text.
 
+## See Also
 
-[pedroalbanese/encryptcli](https://github.com/pedroalbanese/encryptcli)  OpenSSL compliant File/Text Encrypter CLI+GUI written in AutoIt3
-
-![AES File Crypter screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/415502/271795729-2ba0834d-0a4f-4390-ae94-5117e599397b.png)
-
-
-
-[Dcryptor](https://github.com/darshan-open-source/Dcryptor) encryption tool written in C++ using Qt and OpenSSL.
-It offers a wide range of algorithms and cipher modes to encrypt and decrypt strings, files and folders.
-
-![Dcryptor screenshot](https://raw.githubusercontent.com/darshan-open-source/Dcryptor/main/screenshots/Screenshot.png)
-
-
-[OpenSSL Key and Sign Utility](https://github.com/LpCodes/OpenSSL-Key-and-Sign-Utility) Written in Python
-
-![OpenSSL-Key-and-Sign-Utility screenshot](https://raw.githubusercontent.com/LpCodes/OpenSSL-Key-and-Sign-Utility/main/image.png)
-
-
-
-**Fortra Open PGP Studio**
-GUI software for verifying, signing, encrypting & decrypting PGP-protected files.
-Has support for managing a PGP keychain, creating, deleting, import & exporting keypairs.
-[Homepage](https://www.goanywhere.com/products/open-pgp-studio) | [Backup of v1.2.2 x64](https://web.archive.org/web/20231120223315/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_2_windows-x64.exe) | [Backup of v1.2.1 x86/x64](https://web.archive.org/web/20231120223425/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_1_windows.exe)
-
-![OpenPGP-Studio screenshot](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
-
-**SignGUI**
-The most reliable frontend for Microsoft's Signtool.exe program (from the Windows SDK Tools).
-Supports Signtool.exe version 6.3 or later, cans handle SHA2 signatures & dual-signing.
-[Homepage](https://www.briggsoft.com/signgui.htm)
-
-![SignGUI screenshot](https://user-images.githubusercontent.com/131653305/284413619-44b181f3-b6d0-4ba5-a129-cc03d714a4f5.png)
-
-**MGTEK SmartCard Tools**
-An alternative to the Gemalto MiniDriver Manager that supports running Microsoft's Signtool.exe with preconfigured smartcard PINs.
-Provides both a command-line ScSigntool.exe utility and its smartcard MiniDriver manager.
-[Homepage](https://www.mgtek.com/smartcard)
-
-![MGTEK screenshot](https://user-images.githubusercontent.com/131653305/284414889-b4d9701f-4697-4b7a-b3f3-60c0312689eb.png)
-
-**PKI Solutions ASN.1 Editor**
-Forensic-grade ASN.1 object inspector, cans handle PKCS#12, PKCS#7, PEM, DER or Hex dumps.
-Cans also surgically edit certificates & CSR requests, allows arbitrary data modifications.
-[Homepage](https://github.com/PKISolutions/Asn1Editor.WPF) | [Download](https://github.com/PKISolutions/Asn1Editor.WPF/releases)
-
-![PKI Solutions ASN.1 Editor screenshot](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
-
-
-
-[P7S Signer screenshot](https://www.signfiles.com/p7s-signer/)
-A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. Uses .NET
-![P7S Signer](https://www.signfiles.com/resources/P7SSigner.jpg)
- 
-
-[cryptool](https://www.cryptool.org) is a set of GUI tools and some of them are open source like [jcryptool](https://github.com/jcryptool/core). The compamy also has a good YouTube channel [Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody)
-
-
-**Android PIN Unblocker**
-
-![Android PIN Unblocker main UI.](https://i.postimg.cc/sBBz5z2T/1-generate-unblock-key.png)
-
-Generate unblock codes for PKI smartcards using your Admin key and phone.
-Its purpose is to generate smartcard unblock codes using your Admin key and your phone instead of requiring a computer.
-
-[Homepage](https://github.com/gdmeunier/android-pin-unblocker/) | [Download](https://github.com/gdmeunier/android-pin-unblocker/releases/)
-
-
-**Microsoft's PIN Tool*
-Microsoft's PIN Tool for unblocking HID Global smartcards (Crescendo products).
-
-https://github.com/gdmeunier/microsoft-pin-tool
-
-
-
-## See also
-
-* [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
-* [PGP-GUI](https://github.com/stokito/PGP-UI) - a Java Swing app based on Bouncy Castle
-* https://github.cosslsigncodeom/mtrojnar/osslsigncode
-* [Microsoft SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
+* [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core).
+  - The compamy also has a good YouTube channel ([Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody))
+* [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
+* [PGP-GUI](https://github.com/stokito/PGP-UI): a Java Swing app based on Bouncy Castle
+* [oSSLSignCode](https://github.com/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
