@@ -26,11 +26,10 @@ No support for PGP certificates either. Such certificates are decentralized with
 
 Windows 8.1 & earlier uses **certmgr.msc** while Windows 10 & later uses **certmgmt.msc** as the filename.
 
-
 ### SignGUI
 ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.briggsoft.com/signgui.htm)
 
-![SignGUI running on Windows 7.](https://user-images.githubusercontent.com/131653305/284413619-44b181f3-b6d0-4ba5-a129-cc03d714a4f5.png)
+![SignGUI running on Windows 7.](https://i.postimg.cc/NMZWh97D/SignGUI.png)
 
 This is the most reliable GUI frontend for Microsoft's **signtool.exe** program (from the Windows SDK Tools). It supports signtool.exe version 6.3 or later, and cans handle SHA2 signatures with dual-signing.
 
@@ -71,3 +70,14 @@ The Microsoft PIN Tool is also available unofficially with the ability to handle
 The Microsoft PIN Tool modified for ActivClient-initialized PKI smartcards (HID Global cards with a static unblock code). It successfully unblocks ActivClient Crescendo cards without using the official ActivClient PIN Initialization Tool.
 
 Your static unblock code is always the Response code to unblock the card and set a new User PIN. This modification means there's no need to use [ActivClient](#activclient) anymore for unblocking HID Crescendo cards.
+
+### ActivClient
+![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
+
+![ActivClient running on Windows 7.](https://i.postimg.cc/k4h72gNR/Activ-Client.png)
+
+HID Global's PKI middleware for Crescendo smartcard products, it also supports many more PKI smartcard brands.
+
+Its price is nonetheless highly expensive for the little it brings compared to using the already existing & free minidriver managers found online. Its main selling point appears to be the ability to use its PKCS11 library (*acpkcs11.dll*) & import Root certificates into smartcards of its own brand.
+
+It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
