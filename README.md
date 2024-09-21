@@ -96,17 +96,6 @@ The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to
 
 The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
 
-### XCA
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
-
-![XCA running on Windows 7.](https://i.postimg.cc/WbfqB0dg/XCA.png)
-
-This is the singlehandedly most useful certificate management utility known to date for a GUI *OpenSSL* utility. This is the most complete one in terms of managing a full *Certificate Authority* with certificate revocation lists.
-
-It features an extraordinary set of supported public & private keys, ranging from PKCS1 to PKCS8 encoding for x509 authentication or SSH connection. Its feature set for PGP is however limited to managing and converting only the public & private keys instead of managing the PGP certificates as well.
-
-It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
-
 ### ActivClient
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
 
@@ -117,3 +106,28 @@ HID Global's PKI middleware for Crescendo smartcard products, it also supports m
 Its price is nonetheless highly expensive for the little it brings compared to using the already existing & free minidriver managers found online. Its main selling point appears to be the ability to use its PKCS11 library (*acpkcs11.dll*) & import Root certificates into smartcards of its own brand.
 
 It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
+
+## Cross-Platform
+These programs can run of multiple operating systems (generally thanks to QtFramework or Java).
+
+### Fortra Open PGP Studio
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.goanywhere.com/products/open-pgp-studio)
+
+![Fortra Open PGP Studio running on Windows 7.](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
+
+Simple and efficient PGP management software, with a good user interface. It has the ability to both manage PGP keys and also do cryptographic operations (namely decrypting, encrypting, verifying & signing data).
+
+This utility also supports creating new PGP keys, additionally to importing and exporting them.
+
+Windows versions of [Open PGP Studio v1.2.2 (x64)](https://web.archive.org/web/20231120223315/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_2_windows-x64.exe) and [Open PGP Studio v1.2.1 (x86/x64)](https://web.archive.org/web/20231120223425/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_1_windows.exe) are available for direct download as well (so no need for a good temporary email service).
+
+### XCA
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
+
+![XCA running on Windows 7.](https://i.postimg.cc/WbfqB0dg/XCA.png)
+
+This is the singlehandedly most useful certificate management utility known to date for a GUI *OpenSSL* utility. This is the most complete one in terms of managing a full *Certificate Authority* with certificate revocation lists.
+
+It features an extraordinary set of supported public & private keys, ranging from PKCS1 to PKCS8 encoding for x509 authentication or SSH connection. Its feature set for PGP is however limited to managing and converting only the public & private keys instead of managing the PGP certificates as well.
+
+It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
