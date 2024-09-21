@@ -153,6 +153,19 @@ A proprietary and paid digital certificate GUI for Windows. CAdES, eIDAS, QSCD. 
 
 [cryptool](https://www.cryptool.org) is a set of GUI tools and some of them are open source like [jcryptool](https://github.com/jcryptool/core). The compamy also has a good YouTube channel [Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody)
 
+
+**Android PIN Unblocker**
+
+![Android PIN Unblocker main UI.](https://i.postimg.cc/sBBz5z2T/1-generate-unblock-key.png)
+
+Generate unblock codes for PKI smartcards using your Admin key and phone.
+Its purpose is to generate smartcard unblock codes using your Admin key and your phone instead of requiring a computer.
+
+[Homepage](https://github.com/gdmeunier/android-pin-unblocker/) | [Download](https://github.com/gdmeunier/android-pin-unblocker/releases/)
+
+
+
+
 ## See also
 
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
