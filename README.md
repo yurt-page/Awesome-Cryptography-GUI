@@ -155,6 +155,17 @@ It features an extraordinary set of supported public & private keys, ranging fro
 
 It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
 
+### KeyStore Explorer
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/kaikramer/keystore-explorer)
+
+![KeyStore Explorer running on Windows 10.](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
+
+Very useful and complete utility for managing PKCS12 & Java Keystores. While it's mostly known for managing certificates it also possesses less talked-about features such as the ability to sign JAR files and sign JWT tokens.
+
+Its feature set is now considerably better than the Java keytool program that it initially wanted to be a GUI frontend for.
+
+KeyStore Explorer has now climbed to being a full Java KeyStore manager, that also offers the ability to do cryptographic operations and convert public/private keys between different formats.
+
 ## Android
 These are applications that run only on Android.
 
