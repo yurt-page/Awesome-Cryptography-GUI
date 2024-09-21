@@ -1,4 +1,5 @@
 #### Work-In-Progress (rearranging things and adding more lesser known PKI softwares)
+In order: freeware-proprietary / paid-proprietary / free-opensource
 
 # Awesome Cryptography GUI Tools
 Making the list of available OS tools for cryptography and user-friendly cryptography GUI tools.
@@ -70,6 +71,17 @@ The Microsoft PIN Tool is also available unofficially with the ability to handle
 The Microsoft PIN Tool modified for ActivClient-initialized PKI smartcards (HID Global cards with a static unblock code). It successfully unblocks ActivClient Crescendo cards without using the official ActivClient PIN Initialization Tool.
 
 Your static unblock code is always the Response code to unblock the card and set a new User PIN. This modification means there's no need to use [ActivClient](#activclient) anymore for unblocking HID Crescendo cards.
+
+### VersaSec vSEC_TOOL_K
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-tool-k/)
+
+![VersaSec vSEC_TOOL_K running on Windows 7.](https://i.postimg.cc/85g0tQ1X/v-SEC-TOOL-K.png)
+
+VersaSec's free utility for advanced PKI smartcard management, with the ability to change PIN, unblock PIN and also change the Admin key.
+
+It as well allows on supported smartcards (many actually) to set their Security Policy such as the maximum PIN try count and character restrictions (e.g. no letters).
+
+Very useful for hardening the Security Policy of your digital signature tokens and e.g. block them upon the first failed PIN attempt.
 
 ### ActivClient
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
