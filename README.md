@@ -175,3 +175,5 @@ https://github.com/gdmeunier/microsoft-pin-tool
 
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html)
 * [PGP-GUI](https://github.com/stokito/PGP-UI) - a Java Swing app based on Bouncy Castle
+* https://github.cosslsigncodeom/mtrojnar/osslsigncode
+* [Microsoft SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
