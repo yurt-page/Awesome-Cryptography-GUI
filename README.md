@@ -164,6 +164,11 @@ Its purpose is to generate smartcard unblock codes using your Admin key and your
 [Homepage](https://github.com/gdmeunier/android-pin-unblocker/) | [Download](https://github.com/gdmeunier/android-pin-unblocker/releases/)
 
 
+**Microsoft's PIN Tool*
+Microsoft's PIN Tool for unblocking HID Global smartcards (Crescendo products).
+
+https://github.com/gdmeunier/microsoft-pin-tool
+
 
 
 ## See also
