@@ -115,16 +115,16 @@ Forensic-grade ASN.1 object inspector, it cans handle PKCS#12, PKCS#7, PEM, DER 
 
 This tool is gold for debugging faulty certificates & public or private keys in binary format. It also contains a built-in DER/PEM data converter for switching between binary & text file formats.
 
-### ActivClient
-![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
+### Pkcs11Admin
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.pkcs11admin.net/)
 
-![ActivClient running on Windows 7.](https://i.postimg.cc/k4h72gNR/Activ-Client.png)
+![Pkcs11Admin running on Windows 10.](https://i.postimg.cc/ZYQnNLwh/pkcs11admin.png)
 
-HID Global's PKI middleware for Crescendo smartcard products, it also supports many more PKI smartcard brands.
+A fully featured PKCS11 Token management utiltiy that allows specifying the card reader to use, and which Token to connect to.
+Once connected to a Token, it cans be used to initialize or unblock the User PIN, or it cans be used to log into the PKCS11 Token and import or export data from it.
 
-Its price is nonetheless highly expensive for the little it brings compared to using the already existing & free minidriver managers found online. Its main selling point appears to be the ability to use its PKCS11 library (*acpkcs11.dll*) & import Root certificates into smartcards of its own brand.
-
-It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
+Pkcs11Admin offers the ability to log into the Tokens as Administrator (SO PIN) which allows exporting most (if not all) of the PKCS11 private data elements (p11 folder's datXX files).
+We can however notice that it's currently not possible to select many PKCS11 data elements at once (multi-selection) for import & export, so you will have to do it one by one.
 
 ### SignFiles.com Signer Tools
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
@@ -170,6 +170,30 @@ Very useful and complete utility for managing PKCS12 & Java Keystores. While it'
 Its feature set is now considerably better than the Java keytool program that it initially wanted to be a GUI frontend for.
 
 KeyStore Explorer has now climbed to being a full Java KeyStore manager, that also offers the ability to do cryptographic operations and convert public/private keys between different formats.
+
+### Kleopatra
+![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apps.kde.org/kleopatra/)
+
+![Kleopatra running on Linux.](https://i.postimg.cc/MHgG8WnG/kleopatra.png)
+
+Cross-platform certificates & keypairs manager. It supports managing x509 certificates and PGP keys, including the ability to generate a revocation certificate for PGP keys.
+
+It cans be used to generate & verify PGP keys. It cans also perform cryptographic operations such as signing, encryption and decryption. It's finally able to retrieve certificates from LDAP servers and PGP keys from PGP-keyservers.
+
+You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
+
+### ActivClient
+![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
+
+![ActivClient running on Windows 7.](https://i.postimg.cc/k4h72gNR/Activ-Client.png)
+
+HID Global's PKI middleware for Crescendo smartcard products, it also supports many more PKI smartcard brands.
+
+Its price is nonetheless highly expensive for the little it brings compared to using the already existing & free minidriver managers found online. Its main selling point appears to be the ability to use its PKCS11 library (*acpkcs11.dll*) & import Root certificates into smartcards of its own brand.
+
+It's highly difficult if not impossible to purchase it from HID Global, if you wish to buy it you will only be able to get it from third-party resellers.
+
+ActivClient is mostly known for its Windows versions, albeit Linux & Mac OS versions also exist. It's currently unknown where the average customer should go to purchase a Linux or Mac OS version of ActivClient.
 
 ## Linux
 These programs only run on Linux OS distros.
