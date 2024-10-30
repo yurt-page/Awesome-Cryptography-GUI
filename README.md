@@ -157,7 +157,8 @@ We can however notice that it's currently not possible to select many PKCS11 dat
 
 ![OpenSSLUI running on Windows 10.](https://i.postimg.cc/XvbqnnNq/128235989-164f4c8e-394f-46ec-8f4b-83cbb4d68859.jpg)
 
-This utility is a GUI frontend for OpenSSL that allows you to easily create a Root CA and generate then sign certificate requests with it (CSR requests).
+OpenSSLUI is a GUI frontend for OpenSSL that allows you to easily create a Root CA and generate then sign certificate requests with it (CSR requests).
+This utility cans be used to create your own CSRs or just for generating a self-signed certificate.
 
 This utility is mostly intended for creating your own SSL Root CA (e.g. for HTTPS) rather than being a full-featured GUI for OpenSSL ([imagine if it actually was](https://smallstep.com/blog/if-openssl-were-a-gui/)).
 It does provide utilities for converting PEM private keys & certificate files to PFX (PKCS12 file) but doesn't allow you to use your own certificate usage policies (EKUs) so you will be limited to 'SSL client' and 'SSL server'.
@@ -172,6 +173,8 @@ It cans generate CSRs (certificate requests) in a more advanced form than OpenSS
 
 It has a builtin facility to convert files between PEM & DER (binary encoded) formats, it's able to also split a PFX file (PKCS12) into two separate PEM & CRT files.
 Finally it's able to combine a PEM or DER private key & a certificate into one PKCS12 (PFX) file.
+
+And lastly, this utility is written in C# and cans be installed with the Chocolatey package manager.
 
 ### SignFiles.com Signer Tools
 ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
