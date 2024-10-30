@@ -71,6 +71,21 @@ The Microsoft PIN Tool modified for ActivClient-initialized PKI smartcards (HID 
 
 Your static unblock code is always the Response code to unblock the card and set a new User PIN. This modification means there's no need to use [ActivClient](#activclient) anymore for unblocking HID Crescendo cards.
 
+### Microsoft TPM Virtual Smartcard
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://learn.microsoft.com/en-us/windows/security/identity-protection/virtual-smart-cards/virtual-smart-card-tpmvscmgr)
+
+*(The tpmvscmgr.exe command-line utility doesn't have a GUI)*
+
+The **tpmvscmgr.exe** is a virtual smartcard utility shipped by default with Windows 10 & later operating systems by Microsoft.
+It allows you to make use of your TPM with CAPI-enabled applications (CAPI standing for smartcard API), that includes Windows logon and protecting passwords in password managers or for use with non-System Bitlocker drives.
+
+The virtual smartcard that gets created by this utility will inherit the TPM's lockout policy for failed authentication attempts. It's nonetheless recommended to always keep a backup of the material you use to encrypt data in the virtual smartcard.
+
+Make sure to always prefer using *Admin Key* instead of *PUK* for unblocking your smartcard (*/AdminKey* switch) and your own Admin Key.
+
+You will be able to unblock your virtual smartcard with the [Microsoft PIN Tool](#Microsoft-PIN-Tool) and unique challenge-response codes rather than a static *PUK*.
+The response code cans be computed with your Admin Key the Gemalto Response Code Calculator which is part of [Gemalto MiniDriver Manager](#Gemalto-MiniDriver-Manager).
+
 ### VersaSec vSEC_TOOL_K
 ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-tool-k/)
 
@@ -105,6 +120,17 @@ A full-featured cryptography software for trying out symmetric & asymmetric ciph
 You can do hashing, encryption, decryption, signing and verification using this tool. It's literally as if it was a GUI frontend for .NET Framework's System.Cryptography namespace, if you want a developer joke.
 
 It's pure gold. It's even useful for reverse-engineering cryptographic ciphers & proprietary file formats.
+
+### Crypware Virtual Cryptoki
+![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://ncryptoki.com/download.aspx)
+
+![Crypware Virtual Cryptoki running on Windows 7.](https://i.postimg.cc/RhLqYFnw/Crypware-Virtual-Cryptoki-Explorer.png)
+
+A masterfully crafted PKCS11 Token/HSM emulator that supports the PKCS11 2.20 specification, compatible with any PKCS11-enabled application.
+
+Its default PIN codes are *1234* but they can be changed to anything you like, including alphanumeric letters (since smartcard PINs aren't SIM card PINs).
+
+This emulator is powered by a core library named **vcki.dll** available for both 32 & 64-bit Windows systems. You basically just have to provide your PKCS11 application with the *vcki.dll* file to start using the virtual PKCS11 token.
 
 ### PKI Solutions ASN1 Editor
 ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/PKISolutions/Asn1Editor.WPF)
