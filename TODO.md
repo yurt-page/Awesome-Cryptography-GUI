@@ -1,9 +1,3 @@
-[KDE Kleopatra](https://apps.kde.org/kleopatra/) a certificate manager and a universal crypto GUI.
-It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.
-You can install it on Windows with [gpg4win](https://gpg4win.org/index.html).
-
-![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
-
 [GpgFrontend](https://www.gpgfrontend.bktus.com/) - a powerful OpenPGP Crypto Tool. Windows, macOS, Linux.
 
 ![GpgFrontend screenshot](https://user-images.githubusercontent.com/415502/273472254-de17b125-e1e7-4d76-8386-e09415353c3c.png)

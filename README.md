@@ -158,7 +158,7 @@ We can however notice that it's currently not possible to select many PKCS11 dat
 ![OpenSSLUI running on Windows 10.](https://i.postimg.cc/XvbqnnNq/128235989-164f4c8e-394f-46ec-8f4b-83cbb4d68859.jpg)
 
 OpenSSLUI is a GUI frontend for OpenSSL that allows you to easily create a Root CA and generate then sign certificate requests with it (CSR requests).
-This utility cans be used to create your own CSRs or just for generating a self-signed certificate. Windows only.
+This utility cans be used to create your own CSRs or just for generating a self-signed certificate.
 
 This utility is mostly intended for creating your own SSL Root CA (e.g. for HTTPS) rather than being a full-featured GUI for OpenSSL ([imagine if it actually was](https://smallstep.com/blog/if-openssl-were-a-gui/)).
 It does provide utilities for converting PEM private keys & certificate files to PFX (PKCS12 file) but doesn't allow you to use your own certificate usage policies (EKUs) so you will be limited to 'SSL client' and 'SSL server'.
@@ -226,9 +226,11 @@ KeyStore Explorer has now climbed to being a full Java KeyStore manager, that al
 
 ![Kleopatra running on Linux.](https://i.postimg.cc/MHgG8WnG/kleopatra.png)
 
+![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
+
 Cross-platform certificates & keypairs manager. It supports managing x509 certificates and PGP keys, including the ability to generate a revocation certificate for PGP keys.
 
-It can be used to generate & verify PGP keys. It can also perform cryptographic operations such as signing, encryption and decryption. It's finally able to retrieve certificates from LDAP servers and PGP keys from PGP-keyservers.
+It can be used to generate & verify PGP keys. It can also perform cryptographic operations such as signing, encryption and decryption. It's finally able to retrieve certificates from LDAP servers and PGP keys from PGP-keyservers. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox.
 
 You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 
