@@ -14,7 +14,7 @@ Making the list of available OS tools for cryptography and user-friendly cryptog
 These utilities only run on Windows (not cross-platform).
 
 ### Windows Certificate Manager Snap-In
-![Freeware and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) ![No homepage is available.](https://img.shields.io/badge/No_Homepage-gray)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Freeware and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) ![No homepage is available.](https://img.shields.io/badge/No_Homepage-gray)
 
 ![certmgr.msc running on Windows 8.1.](https://user-images.githubusercontent.com/415502/271792055-2332fd61-8b82-4890-94be-4fcaf09002e1.png)
 
@@ -27,7 +27,7 @@ No support for PGP certificates either. Such certificates are decentralized with
 Windows 8.1 & earlier uses **certmgr.msc** while Windows 10 & later uses **certmgmt.msc** as the filename.
 
 ### SignGUI
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.briggsoft.com/signgui.htm)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.briggsoft.com/signgui.htm)
 
 ![SignGUI running on Windows 7.](https://i.postimg.cc/NMZWh97D/SignGUI.png)
 
@@ -36,7 +36,7 @@ This is the most reliable GUI frontend for Microsoft's **signtool.exe** program 
 This software doesn't ship with the Windows Signtool utility that you can get separately from the [Wayback Machine](https://archive.org/details/windowssdk). The official download for the Windows 8.1 SDK is now broken because Microsoft removed its required setup files from their servers.
 
 ### MGTEK SmartCard Tools
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.mgtek.com/smartcard)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.mgtek.com/smartcard)
 
 ![MGTEK SmartCard Tools running on Windows 10.](https://user-images.githubusercontent.com/131653305/284414889-b4d9701f-4697-4b7a-b3f3-60c0312689eb.png)
 
@@ -45,7 +45,7 @@ An alternative to the [Gemalto MiniDriver Manager](#gemalto-minidriver-manager) 
 It provides both a command-line **ScSigntool.exe** utility and a graphical smartcard minidriver manager (that additionally allows renaming certificate slots on a smartcard compared to Gemalto's).
 
 ### Gemalto MiniDriver Manager
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sysparm_article=KB0017162)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sysparm_article=KB0017162)
 
 ![MGTEK SmartCard Tools running on Windows 7.](https://i.postimg.cc/N048XWzw/Gemalto-Mini-Driver-Manager-2-4-6.png)
 
@@ -54,7 +54,7 @@ This is the most famous minidriver manager online for smartcards. It allows esse
 Albeit coming from Gemalto (now Thales (now Entrust)), it supports all brands of PKI cards. Actually it's only a few specific sensitive operations such as **Card Factory Reset** & **PIN Policy Management** that are unsupported with HID Global's Crescendo PKI products (requires [ActivClient](#activclient) which is not free).
 
 ### Microsoft PIN Tool
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.catalog.update.microsoft.com/Search.aspx?q=KB909520)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.catalog.update.microsoft.com/Search.aspx?q=KB909520)
 
 ![Microsoft PIN Tool running on Windows 7.](https://i.postimg.cc/HnsTx77g/Microsoft-PIN-Tool.png)
 
@@ -63,7 +63,7 @@ This is a lesser known utility since it's very old (originally for Windows XP) t
 The Microsoft PIN Tool is also available unofficially with the ability to handle [ActivClient](#activclient) cards, as my [Microsoft PIN Tool ActivID Mod](#microsoft-pin-tool-activid-mod).
 
 ### Microsoft PIN Tool ActivID Mod
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/microsoft-pin-tool)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/microsoft-pin-tool)
 
 ![Microsoft PIN Tool ActivID Mod running on Windows 7.](https://i.postimg.cc/NMdWdCL3/Microsoft-PIN-Tool-Activ-ID-Mod.png)
 
@@ -72,7 +72,7 @@ The Microsoft PIN Tool modified for ActivClient-initialized PKI smartcards (HID 
 Your static unblock code is always the Response code to unblock the card and set a new User PIN. This modification means there's no need to use [ActivClient](#activclient) anymore for unblocking HID Crescendo cards.
 
 ### Microsoft TPM Virtual Smartcard
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://learn.microsoft.com/en-us/windows/security/identity-protection/virtual-smart-cards/virtual-smart-card-tpmvscmgr)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://learn.microsoft.com/en-us/windows/security/identity-protection/virtual-smart-cards/virtual-smart-card-tpmvscmgr)
 
 *(The tpmvscmgr.exe command-line utility doesn't have a GUI)*
 
@@ -87,7 +87,7 @@ You will be able to unblock your virtual smartcard with the [Microsoft PIN Tool]
 The response code cans be computed with your Admin Key the Gemalto Response Code Calculator which is part of [Gemalto MiniDriver Manager](#Gemalto-MiniDriver-Manager).
 
 ### VersaSec vSEC_TOOL_K
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-tool-k/)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-tool-k/)
 
 ![VersaSec vSEC_TOOL_K running on Windows 7.](https://i.postimg.cc/85g0tQ1X/v-SEC-TOOL-K.png)
 
@@ -98,7 +98,7 @@ It as well allows on supported smartcards (many actually) to set their Security 
 Very useful for hardening the Security Policy of your digital signature tokens and e.g. block them upon the first failed PIN attempt.
 
 ### VersaSec vSEC_CMS_K
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-cms/)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://versasec.com/products/vsec-cms/)
 
 ![VersaSec vSEC_CMS_K running on Windows 7.](https://i.postimg.cc/Y9VjJ3sP/v-SEC-CMS-K.png)
 
@@ -111,7 +111,7 @@ The utility runs for free in a 'limited' *Tool* mode albeit it doesn't appear to
 The VersaSec vSEC_CMS_K cans also be downloaded freely as part of the [Taglio PIVKey Administrator Kit](https://pivkey.zendesk.com/hc/en-us/articles/360003283491-The-vSEC-CMS-Utility) (you don't need a Taglio product to use it).
 
 ### Crypto Stuff
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](http://jacquelin.potier.free.fr/CryptoStuff/)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](http://jacquelin.potier.free.fr/CryptoStuff/)
 
 ![Crypto Stuff running on Windows 7.](https://i.postimg.cc/gjqZZ7sZ/Crypto-Stuff.png)
 
@@ -122,7 +122,7 @@ You can do hashing, encryption, decryption, signing and verification using this 
 It's pure gold. It's even useful for reverse-engineering cryptographic ciphers & proprietary file formats.
 
 ### Crypware Virtual Cryptoki
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://ncryptoki.com/download.aspx)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://ncryptoki.com/download.aspx)
 
 ![Crypware Virtual Cryptoki running on Windows 7.](https://i.postimg.cc/RhLqYFnw/Crypware-Virtual-Cryptoki-Explorer.png)
 
@@ -133,7 +133,7 @@ Its default PIN codes are *1234* but they can be changed to anything you like, i
 This emulator is powered by a core library named **vcki.dll** available for both 32 & 64-bit Windows systems. You basically just have to provide your PKCS11 application with the *vcki.dll* file to start using the virtual PKCS11 token.
 
 ### PKI Solutions ASN1 Editor
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/PKISolutions/Asn1Editor.WPF)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/PKISolutions/Asn1Editor.WPF)
 
 ![PKI Solutions ASN1 Editor running on Windows 10.](https://user-images.githubusercontent.com/131653305/284415784-5b7b69e0-93f1-4fde-a658-611e48f0a906.png)
 
@@ -142,7 +142,7 @@ Forensic-grade ASN.1 object inspector, it cans handle PKCS#12, PKCS#7, PEM, DER 
 This tool is gold for debugging faulty certificates & public or private keys in binary format. It also contains a built-in DER/PEM data converter for switching between binary & text file formats.
 
 ### Pkcs11Admin
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.pkcs11admin.net/)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.pkcs11admin.net/)
 
 ![Pkcs11Admin running on Windows 10.](https://i.postimg.cc/ZYQnNLwh/pkcs11admin.png)
 
@@ -153,7 +153,7 @@ Pkcs11Admin offers the ability to log into the Tokens as Administrator (SO PIN) 
 We can however notice that it's currently not possible to select many PKCS11 data elements at once (multi-selection) for import & export, so you will have to do it one by one.
 
 ### OpenSSLUI
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/A9G-Data-Droid/OpenSSLUI)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/A9G-Data-Droid/OpenSSLUI)
 
 ![OpenSSLUI running on Windows 10.](https://i.postimg.cc/XvbqnnNq/128235989-164f4c8e-394f-46ec-8f4b-83cbb4d68859.jpg)
 
@@ -164,7 +164,7 @@ This utility is mostly intended for creating your own SSL Root CA (e.g. for HTTP
 It does provide utilities for converting PEM private keys & certificate files to PFX (PKCS12 file) but doesn't allow you to use your own certificate usage policies (EKUs) so you will be limited to 'SSL client' and 'SSL server'.
 
 ### OpenSSL Wizard
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/deviousasti/openssl-wizard)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/deviousasti/openssl-wizard)
 
 ![OpenSSL Wizard running on Windows 10.](https://i.postimg.cc/pdS2pxRK/75088352-07941780-5572-11ea-9ac5-a078a2faf6a7.png)
 
@@ -177,7 +177,7 @@ Finally it's able to combine a PEM or DER private key & a certificate into one P
 And lastly, this utility is written in C# and can be installed with the Chocolatey package manager.
 
 ### SignFiles.com Signer Tools
-![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
+![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.signfiles.com/signature-software/)
 
 ![P7S Signer running on Windows 10.](https://www.signfiles.com/resources/P7SSigner.jpg)
 
@@ -189,7 +189,7 @@ It uses .NET Framwork and the software suite features a **PDF**, **P7S**, **XML*
 These programs can run of multiple operating systems (generally thanks to QtFramework or Java).
 
 ### Fortra Open PGP Studio
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.goanywhere.com/products/open-pgp-studio)
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.goanywhere.com/products/open-pgp-studio)
 
 ![Fortra Open PGP Studio running on Windows 7.](https://user-images.githubusercontent.com/131653305/284412737-c7629a8e-5db1-4e94-b6a0-b0356dd43ee4.png)
 
@@ -200,7 +200,7 @@ This utility also supports creating new PGP keys, additionally to importing and 
 Windows versions of [Open PGP Studio v1.2.2 (x64)](https://web.archive.org/web/20231120223315/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_2_windows-x64.exe) and [Open PGP Studio v1.2.1 (x86/x64)](https://web.archive.org/web/20231120223425/https://static.goanywhere.com/releases/goanywhere/openpgpstudio/gapgpstudio1_2_1_windows.exe) are available for direct download as well (so no need for a good temporary email service).
 
 ### XCA
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://hohnstaedt.de/xca/)
 
 ![XCA running on Windows 7.](https://i.postimg.cc/WbfqB0dg/XCA.png)
 
@@ -211,7 +211,7 @@ It features an extraordinary set of supported public & private keys, ranging fro
 It finally also supports PKCS12 keystores among others alongwith PKCS11 if you provide it with the proper PKCS11 library of your smartcard manufacturer (*OpenSC* rarely works unless your card is very popular).
 
 ### KeyStore Explorer
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/kaikramer/keystore-explorer)
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/kaikramer/keystore-explorer)
 
 ![KeyStore Explorer running on Windows 10.](https://raw.githubusercontent.com/kaikramer/kaikramer.github.io/main/images/win10_mykeystore.png)
 
@@ -222,7 +222,7 @@ Its feature set is now considerably better than the Java keytool program that it
 KeyStore Explorer has now climbed to being a full Java KeyStore manager, that also offers the ability to do cryptographic operations and convert public/private keys between different formats.
 
 ### Kleopatra
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apps.kde.org/kleopatra/)
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apps.kde.org/kleopatra/)
 
 ![Kleopatra running on Linux.](https://i.postimg.cc/MHgG8WnG/kleopatra.png)
 
@@ -233,7 +233,7 @@ It can be used to generate & verify PGP keys. It can also perform cryptographic 
 You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 
 ### ActivClient
-![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
 
 ![ActivClient running on Windows 7.](https://i.postimg.cc/k4h72gNR/Activ-Client.png)
 
@@ -249,21 +249,21 @@ ActivClient is mostly known for its Windows versions, albeit Linux & Mac OS vers
 These programs only run on Linux OS distros.
 
 ### GNOME Seahorse
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://wiki.gnome.org/Apps/Seahorse)
+![This is a Linux-only software.](https://img.shields.io/badge/Linux-yellow) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://wiki.gnome.org/Apps/Seahorse)
 
 ![GNOME Seahorse running on Linux.](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gnome_Seahorse_3.12.2.png)
 
 GUI for SSH keys, X509 certs, PGP/GPG. Linux only.
 
 ### Pyrite
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/stokito/pyrite)
+![This is a Linux-only software.](https://img.shields.io/badge/Linux-yellow) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/stokito/pyrite)
 
 ![Pyrite running on Linux](http://b19.org/linux/pyrite/1enc_txt.png)
 
 GnuPG/OpenSSL encryption/signing GUI for Linux implemented with Python & PyGTK.
 
 ### a7crypt
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/ryran/a7crypt)
+![This is a Linux-only software.](https://img.shields.io/badge/Linux-yellow) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/ryran/a7crypt)
 
 ![a7crypt running on Linux](http://b19.org/linux/a7crypt/menuA.png)
 
@@ -274,7 +274,7 @@ Bash, Zenity, Linux
 ## Mac OS
 
 ### Cypt
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://en.freedownloadmanager.org/Mac-OS/Cypt-FREE.html)
+![This is a Mac OS-only software.](https://img.shields.io/badge/Mac_OS-lightgray) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://en.freedownloadmanager.org/Mac-OS/Cypt-FREE.html)
 
 ![Cypt running on Mac OS.](https://1786035589.rsc.cdn77.org/s_mac/502/502872_4.png)
 
@@ -284,7 +284,7 @@ Nice and clean PGP GUI for Mac OS. Proprietary.
 These are applications that run only on Android.
 
 ### Root Certificate Manager
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/root-certificate-manager-root/net.jolivier.cert.Importer)
+![This is an Android-only software.](https://img.shields.io/badge/Android-limegreen) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/root-certificate-manager-root/net.jolivier.cert.Importer)
 
 ![Root Certificate Manager running on Android.](https://i.postimg.cc/nhW3dsKh/Root-Certificate-Manager.png)
 
@@ -297,7 +297,7 @@ The user-imported CA restrictions impose that your custom certificates aren't tr
 This utility is therefore a Trusted Root Certificate import utility just like Windows's own and will only work up to Android 9.0 due to newer Android OS versions' limitations.
 
 ### Dory Cert
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/dory-certificate-rsa-csr-x5/io.tempage.dorycert)
+![This is an Android-only software.](https://img.shields.io/badge/Android-limegreen) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/dory-certificate-rsa-csr-x5/io.tempage.dorycert)
 
 ![Dory Cert running on Android.](https://i.postimg.cc/bw6w4PdJ/Dory-Cert.png)
 
@@ -306,7 +306,7 @@ This application is a keystore manager that supports PKCS12 and x509 certificate
 It as well includesthe ability to inspect certificates & cryptographic keyfiles, additionally to creating new certificates and private keys. Most of the rest is common functionaliy such as importing & exporting certificates & keys.
 
 ### x509 Certificate KeyStore Generator
-![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/x509-certificate-keystore-gene/main.scheka.ew.certificatgenerator)
+![This is an Android-only software.](https://img.shields.io/badge/Android-limegreen) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://apkpure.com/x509-certificate-keystore-gene/main.scheka.ew.certificatgenerator)
 
 ![x509 Certificate KeyStore Generator running on Android.](https://i.postimg.cc/MpXSMQK6/x509-Certificate-Key-Store-Generator.png)
 
@@ -315,7 +315,7 @@ Describing the features of this app would be pretty long, it's basically **makec
 You can generate *Root certificates* and your own TLS certificates directly from your mobile phone with it.
 
 ### OpenKeyChain
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.openkeychain.org/)
+![This is an Android-only software.](https://img.shields.io/badge/Android-limegreen) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.openkeychain.org/)
 
 ![OpenKeyChain running on Android.](https://www.openkeychain.org/public/images/screen1.png)
 
@@ -326,7 +326,7 @@ It features the basic functionalities of encryption & decryption, digital signat
 Example applications using it are [K9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) and [Conversations.im](https://f-droid.org/en/packages/eu.siacs.conversations/). One more lesser talked-about feature of OpenKeyChain is the ability to use a *YubiKey* NFC device for secure cryptographic operations.
 
 ### Android PIN Unblocker
-![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/android-pin-unblocker/)
+![This is an Android-only software.](https://img.shields.io/badge/Android-limegreen) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/gdmeunier/android-pin-unblocker/)
 
 ![Android PIN Unblocker running on Android.](https://i.postimg.cc/jq1LZKLP/1-main-app-screen.png)
 
