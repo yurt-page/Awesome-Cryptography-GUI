@@ -363,6 +363,7 @@ The purpose of the QR Code scanning functionality is to allow quick unblocking o
 
 ## See Also
 
+* [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography) - A curated list of cryptography resources and links. 
 * [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core).
   - The compamy also has a good YouTube channel ([Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody))
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
