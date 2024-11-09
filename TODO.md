@@ -1,16 +1,9 @@
-[GpgFrontend](https://www.gpgfrontend.bktus.com/) - a powerful OpenPGP Crypto Tool. Windows, macOS, Linux.
-
-![GpgFrontend screenshot](https://user-images.githubusercontent.com/415502/273472254-de17b125-e1e7-4d76-8386-e09415353c3c.png)
 
 ## OpenSSL GUI
 
-<details>
-<summary>sad joke: If OpenSSL were a GUI...</summary>
+[GpgFrontend](https://www.gpgfrontend.bktus.com/) - a powerful OpenPGP Crypto Tool. Windows, macOS, Linux.
 
-![If OpenSSL were a GUI](https://user-images.githubusercontent.com/415502/271791002-49f8a077-98eb-49ea-99d1-8ee7110952f0.png)
-
-(c) [Carl Tashian](https://smallstep.com/blog/if-openssl-were-a-gui/)
-</details>
+![GpgFrontend screenshot](https://user-images.githubusercontent.com/415502/273472254-de17b125-e1e7-4d76-8386-e09415353c3c.png)
 
 [YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
