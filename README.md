@@ -226,8 +226,6 @@ KeyStore Explorer has now climbed to being a full Java KeyStore manager, that al
 
 ![Kleopatra running on Linux.](https://i.postimg.cc/MHgG8WnG/kleopatra.png)
 
-![Kleopatra screenshot](https://kde.org/images/screenshots/kleopatra.png)
-
 Cross-platform certificates & keypairs manager. It supports managing x509 certificates and PGP keys, including the ability to generate a revocation certificate for PGP keys.
 
 It can be used to generate & verify PGP keys. It can also perform cryptographic operations such as signing, encryption and decryption. It's finally able to retrieve certificates from LDAP servers and PGP keys from PGP-keyservers. It supports managing X.509 and OpenPGP certificates in the GpgSM keybox.
