@@ -232,6 +232,26 @@ It can be used to generate & verify PGP keys. It can also perform cryptographic 
 
 You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 
+### CryptokiMan
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://jykim74.tistory.com/38)
+
+![CryptokiMan running on Windows 10.](https://i.postimg.cc/Z0t31g40/Cryptoki-Man.png)
+
+CryptokiMan is a neat Cryptoki/PKCS#11 Token management software made with developers in mind, made by Chinese developer jykim74 (its official homepage is hosted on a *tistory.com* blog, which is usually blocked by Adblockers since most blogs on this domain are SEO scams).
+
+CryptokiMan is mostly aimed at knowledgeable users who know to first open a Cryptoki session, then log into the Token, and so on prior to managing it - and finally logout then close the Cryptoki session.
+
+Thus you can open a PKCS#11 session, log into your Token (as User/SO - basically Admin) and do cryptographic operations as well as certificates & keys management.
+
+It's possible to import RSA & EC private keys, generate AES keys for symmetric encryption, import/export certificates and backup/restore PKCS#11 private application data (e.g. VeraCrypt encryption keys, BestCrypt, ...)
+
+For cryptographic operations CryptokiMan cans be used to verify & generate digital signatures, perform symmetric encryption (e.g. AES) directly on the Token, encrypt/decrypt with RSA/EC and generate hashes (md5/sha1/sha256...)
+
+It's however important to note that almost all features of this program are restricted in the free version, and it requires a license to be purchased to basically be able to do anything with it.
+
+It's also unclear how to proceed to the purchase without having to manually contact the developer for more info.
+There was as well some source code on the developer's Github profile but it's incomplete and cannot be compiled without the JS-PKI library code (not provided), so I marked it as Proprietary.
+
 ### ActivClient
 ![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
 
