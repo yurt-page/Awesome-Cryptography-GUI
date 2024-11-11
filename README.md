@@ -9,6 +9,7 @@ Making the list of available OS tools for cryptography and user-friendly cryptog
 * [Mac OS](#mac-os)
 * [Android](#android)
 * [Cross-Platform](#cross-platform)
+* [See Also](#see-also)
 
 ## Windows
 These utilities only run on Windows (not cross-platform).
@@ -239,18 +240,13 @@ You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 
 CryptokiMan is a neat Cryptoki/PKCS#11 Token management software made with developers in mind, made by Chinese developer jykim74 (its official homepage is hosted on a *tistory.com* blog, which is usually blocked by Adblockers since most blogs on this domain are SEO scams).
 
-CryptokiMan is mostly aimed at knowledgeable users who know to first open a Cryptoki session, then log into the Token, and so on prior to managing it - and finally logout then close the Cryptoki session.
+CryptokiMan is aimed at knowledgeable users who know to first open a Cryptoki session, then log into the Token, and so on prior to managing it - and finally logout then close the Cryptoki session. Thus you can open a PKCS#11 session, log into your Token (as User/SO - basically Admin) and do cryptographic operations as well as certificates & keys management.
 
-Thus you can open a PKCS#11 session, log into your Token (as User/SO - basically Admin) and do cryptographic operations as well as certificates & keys management.
-
-It's possible to import RSA & EC private keys, generate AES keys for symmetric encryption, import/export certificates and backup/restore PKCS#11 private application data (e.g. VeraCrypt encryption keys, BestCrypt, ...)
+It's possible to import RSA & EC private keys, generate AES keys for symmetric encryption, import/export certificates and backup/restore PKCS#11 private application data (e.g. VeraCrypt & BestCrypt encryption keys, ...)
 
 For cryptographic operations CryptokiMan cans be used to verify & generate digital signatures, perform symmetric encryption (e.g. AES) directly on the Token, encrypt/decrypt with RSA/EC and generate hashes (md5/sha1/sha256...)
 
-It's however important to note that almost all features of this program are restricted in the free version, and it requires a license to be purchased to basically be able to do anything with it.
-
-It's also unclear how to proceed to the purchase without having to manually contact the developer for more info.
-There was as well some source code on the developer's Github profile but it's incomplete and cannot be compiled without the JS-PKI library code (not provided), so I marked it as Proprietary.
+It's important to note that most features of this program are restricted in the free version, and requires a license to be purchased unlock full functionality.
 
 ### ActivClient
 ![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.hidglobal.com/products/activclient)
@@ -356,6 +352,7 @@ So its purpose is to generate smartcard unblock codes using your Admin key and p
 
 The purpose of the QR Code scanning functionality is to allow quick unblocking of smartcards, since you can then simply:
 - make a QR Code for the Request code (e.g. using [CodeTwo QR Code Desktop Reader & Generator](https://www.codetwo.com/freeware/qr-code-desktop-reader/)),
+- click on the QR Code button in the app (code gets filled-in automatically after scan),
 - click on Generate to get your Response Code,
 - click on the Share button and share it to a QR Code generator app,
 - on the computer scan the Response QR Code from your webcam,
@@ -369,3 +366,4 @@ The purpose of the QR Code scanning functionality is to allow quick unblocking o
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
 * [PGP-GUI](https://github.com/stokito/PGP-UI): a Java Swing app based on Bouncy Castle
 * [oSSLSignCode](https://github.com/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
+* [JavaCard Buyer's Guide](https://github.com/martinpaljak/GlobalPlatformPro/wiki/JavaCard-Buyer%27s-Guide#shops-that-sell-javacard-s): list of websites for purchasing hardware security devices (JavaCard & PKI smartcards, USB tokens, card readers...)
