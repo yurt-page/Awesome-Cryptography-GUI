@@ -296,6 +296,23 @@ Bash, Zenity, Linux
 
 Nice and clean PGP GUI for Mac OS. Proprietary.
 
+### Smart Card Utility
+![This is a Mac OS-only software.](https://img.shields.io/badge/Mac_OS-lightgray) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://twocanoes.com/products/mac/smart-card-utility/)
+
+![Smart Card Utility on Mac OS.](https://i.postimg.cc/RCNyfCLV/Smart-Card-Utility.png)
+
+Smart Card Utility is a nice-looking smartcard management utility for Mac OS tailored for PIV cards (must be PIV such as *PIVKey* by Taglio & *Yubikey* by Yubico instead of standard PKI-enabled cards), with PIV meaning *Personal Identity Verification*.
+
+PIV-enabled smartcards can be compatible with both standard PKI and PIV, but the reverse is false (standard PKI cards cannot be used with PIV). PIV-compatible smartcards have four special-use slots that can be loaded with a certificate according to their usage, such as *PIV Authentication* (most common), *Digital Signature*, *Key Management*, and *Card Authentication*.
+
+This application is mostly used for providing MacOS's Keychain with access to certificates stored in a PIV smartcard, additionally to being able to change the PIV card PIN. Moreover there are facilities for exporting the stored x509 certificates and removing them from the card.
+
+I however noticed that while you can remove certificates from PIV cards additionally to exporting them, there's no facility provided for adding a new certificate to the card itself. It's only possible to insert certificates from the card to the Mac OS Keychain, but not the reverse(?).
+
+There's also no mention of being able to unblock the card when the PIN is blocked (this info cannot found in the user guide).
+
+And lastly this app has the downside of being only available from the Mac App Store and no older versions are provided on the developer website for older Apple device users using Mac OS 10.15 Catalina/11 Big Sur, with Smart Card Utility currently requiring MacOS 14 Sonoma or later to work.
+
 ## Android
 These are applications that run only on Android.
 
