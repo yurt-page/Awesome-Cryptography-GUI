@@ -377,9 +377,11 @@ The purpose of the QR Code scanning functionality is to allow quick unblocking o
 
 ## See Also
 
-* [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography) - A curated list of cryptography resources and links. 
-* [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core).
+* [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography) - A curated list of cryptography resources and links
+* [cryptool](https://www.cryptool.org): set of GUI tools and some of them are open-source like [jcryptool](https://github.com/jcryptool/core)
   - The compamy also has a good YouTube channel ([Cryptography for Everybody](https://www.youtube.com/@CryptographyForEverybody))
+* [pkitools.net](https://pkitools.net/): online website with lots of signing, encryption & hashing tools for PKI in one place
+  - Signing tools for JSON, XML, EXE, CAB, MSI [...] (website requires uploading private keys so avoid using important ones)
 * [GnuPG (GPG) Frontends](https://www.gnupg.org/software/frontends.html): list of GnuPG frontends
 * [PGP-GUI](https://github.com/stokito/PGP-UI): a Java Swing app based on Bouncy Castle
 * [oSSLSignCode](https://github.com/mtrojnar/osslsigncode): a free alternative to Microsoft Signtool, it's also cross-platform
