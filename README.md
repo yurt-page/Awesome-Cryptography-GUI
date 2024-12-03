@@ -195,10 +195,15 @@ This software named EIDAuthenticate is a custom Credential Provider for the Wind
 
 It's a standalone version of the Microsoft Smartcard Logon without requiring a Windows Domain-joined computer.
 
-*Credential Providers in Windows acquire the necessary raw authentication material from you on first-time configuration with your password. Then the Credential Provider stores this raw authentication data (kind-of like a token) for future reuse in its own way, and it cans ask you to do limitless possibilities to log you onto your Windows session later.*
-*Here this Credential Provider (EIDAuthenticate) unwraps its encrypted "logon token" for your user account from a signature/decryption operation with certificates stored on your smartcard (e.g. Gemalto IDPrime, YubiKey 5, [...]). It then just presents it to the Windows Authentication controller and you're logged in.*
-
-*This is how EIDAuthenticate works behind the scenes and Credential Providers for Windows are very interesting topic.*
+<details><summary>How Windows Credential Providers Work</summary>
+<i>Credential Providers in Windows acquire the necessary raw authentication material from you on first-time configuration with your password.<br/>
+  Then the Credential Provider stores this raw authentication data (kind-of like a token) for future reuse in its own way, and it cans ask you to do limitless possibilities to log you onto your Windows session later.<br/>
+  <br/>
+Here this Credential Provider (EIDAuthenticate) unwraps its encrypted "logon token" for your user account from a signature/decryption operation with certificates stored on your smartcard (e.g. Gemalto IDPrime, YubiKey 5, [...]).<br/>
+  <br/>
+  It then just presents it to the Windows Authentication controller and you're logged in.<br/>
+  This is how EIDAuthenticate works behind the scenes and Credential Providers for Windows are very interesting topic.</i>
+</details>
 
 The last free Community Edition (version 0.5.x) is still available on the [Wayback Machine](https://archive.org/details/EIDAuthenticate_Community_Edition_0.5.0.4) in improved form, to support for installing it on Pro versions of Windows (e.g. Windows 10 Pro).
 
