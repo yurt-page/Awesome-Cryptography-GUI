@@ -207,7 +207,7 @@ Here this Credential Provider (EIDAuthenticate) unwraps its encrypted "logon tok
 
 The last free Community Edition (version 0.5.x) is still available on the [Wayback Machine](https://archive.org/details/EIDAuthenticate_Community_Edition_0.5.0.4) in improved form, to support for installing it on Pro versions of Windows (e.g. Windows 10 Pro).
 
-You can also use your OpenPGP smartcard if you have one, with the [OpenPGP minidriver for Windows](https://www.mysmartlogon.com/products/openpgp-card-mini-driver.html) from the same company.
+You can also use your OpenPGP smartcard if you have one, with the [OpenPGP minidriver for Windows](https://www.mysmartlogon.com/products/openpgp-card-mini-driver.html) (freeware) from the same company.
 
 You can finally as well prevent the use of plain passwords for Windows logon, even if EIDAuthenticate allows you to disable the Smartcard Logon policy incase of emergency; with the [Block Password Logon](https://github.com/gdmeunier/block-password-logon) tweak.
 
