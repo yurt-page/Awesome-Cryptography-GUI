@@ -264,6 +264,7 @@ You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 ![GpgFrontend running on Windows 7.](https://i.postimg.cc/B64CWkG4/Gpg-Frontend.png)
 
 The cleanest PGP "IDE" based on GnuPG. It cans be considered as a PGP IDE much like Notepad++ or VSCode but with integrated Kleopatra-like functionality.
+It cans be used on all the common operating systems; Windows, Mac OS & Linux.
 
 Instead of just managing keys & doing PGP cryptographic operations, it also offers the ability to directly input text or open & save files. So it's possible to write text in a text field and directly sign that text with your PGP private key.
 
