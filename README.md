@@ -258,6 +258,23 @@ It can be used to generate & verify PGP keys. It can also perform cryptographic 
 
 You can use it on Windows with [Gpg4win](https://gpg4win.org/index.html).
 
+### GpgFrontend
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.gpgfrontend.bktus.com/)
+
+![GpgFrontend running on Windows 7.](https://i.postimg.cc/B64CWkG4/Gpg-Frontend.png)
+
+The cleanest PGP "IDE" based on GnuPG. It cans be considered as a PGP IDE much like Notepad++ or VSCode but with integrated Kleopatra-like functionality.
+
+Instead of just managing keys & doing PGP cryptographic operations, it also offers the ability to directly input text or open & save files. So it's possible to write text in a text field and directly sign that text with your PGP private key.
+
+The program works in the background with GnuPG by creating temporary files and running the GnuPG daemon behind-the-scenes. Nonetheless its approach for the GUI design is absolutely perfect & to the point.
+
+Finally on technical notes about its functionality it offers all the important features found in [Kleopatra](#kleopatra) such as generating revocation certificates, importing & exporting PGP keypairs, signing text, encryption/decryption of text in the text field & text files. It cans also of course verify digitally signed PGP messages.
+
+GpgFrontend does appear to be tailored for text rather than arbitrary files, albeit you could very well PGP-encrypt e.g. a ZIP archive with GnuPG. So for this task of dealing with text I recommend GpgFrontend which is clearly the best one, and for arbitrary files it's rather [Fortra Open PGP Studio](#fortra-open-pgp-studio) that I will recommend.
+
+One thing though, is that Fortra's Open PGP Studio uses its own Java keystore format & BouncyCastle library rather than GnuPG, so you have to also import your PGP keys into Fortra's Open PGP Studio.
+
 ### CryptokiMan
 ![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://jykim74.tistory.com/38)
 
