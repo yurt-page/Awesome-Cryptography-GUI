@@ -1,10 +1,6 @@
 
 ## OpenSSL GUI
 
-[GpgFrontend](https://www.gpgfrontend.bktus.com/) - a powerful OpenPGP Crypto Tool. Windows, macOS, Linux.
-
-![GpgFrontend screenshot](https://user-images.githubusercontent.com/415502/273472254-de17b125-e1e7-4d76-8386-e09415353c3c.png)
-
 [YAOG](https://github.com/patrickpr/YAOG) Windows only. Written in C
 ![YAOG screenshot](https://raw.githubusercontent.com/patrickpr/YAOG/master/img/main.jpg)
 
