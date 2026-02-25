@@ -182,9 +182,11 @@ And lastly, this utility is written in C# and can be installed with the Chocolat
 
 ![P7S Signer running on Windows 10.](https://i.postimg.cc/8P13WMw0/P7-SSigner.jpg)
 
-A proprietary suite of paid digital signature GUI tools for Windows. They support CAdES, eIDAS, QSCD and other norms.
+A proprietary suite of paid digital signature GUI tools for Windows.
+They support CAdES, eIDAS, QSCD and other norms. They also support trusted timestamping (certified datetime).
 
 It uses .NET Framwork and the software suite features a **PDF**, **P7S**, **XML** & **DOCX Signer**.
+There's a Linux alternative program for signing PDF files named [Simple Signer](#simple-signer).
 
 ### EIDAuthenticate
 ![This is a Windows-only software.](https://img.shields.io/badge/Windows-blue) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.mysmartlogon.com/eidauthenticate/)
@@ -352,7 +354,7 @@ Nice and clean PGP GUI for Mac OS. Proprietary.
 ### GPG Suite
 ![This is a Mac OS-only software.](https://img.shields.io/badge/Mac_OS-lightgray) ![Paid and Open-Source software.](https://img.shields.io/badge/Paid-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://gpgtools.org/)
 
-![GPG Suite on Mac OS.](https://i.postimg.cc/Vs7PRnNn/gpgmail-new-message-1506349762.png)
+![GPG Suite on Mac OS.](https://i.postimg.cc/ZKHkRNGQ/gpgmail-new-message-1506349762.png)
 
 This is a paid GPG program for Mac OS, even if it's actually open-source. It allows you to create PGP keys, import and export keys, and it cans also send & receive PGP-encrypted emails (encrypt & decrypt).
 You can also fetch PGP keys from a PGP keyserver, and choose between PGP or S/MIME encryption for sending emails.
