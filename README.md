@@ -307,6 +307,16 @@ ActivClient is mostly known for its Windows versions, albeit Linux & Mac OS vers
 ## Linux
 These programs only run on Linux OS distros.
 
+### Simple Signer
+![This is a Linux-only software.](https://img.shields.io/badge/Linux-yellow) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/schorschii/Simple-Signer)
+
+![Simple Signer on Linux](https://i.postimg.cc/ryGNXN4x/simple-simpler.png)
+
+This program is a rare PDF signer similar to the Windows one from [SignFiles.com Signer Tools](#signfilescom-signer-tools) but also directly offers the ability to use a PFX file (which is rare on Linux, it's usually PEM).
+
+Simple Signer only signs PDF documents and while you can add a visual timestamp inside the PDF file, it currently doesn't support adding a trusted timestamp (from the *Time Stamping Server* / *TSA*).
+This program ofcourse supports PFX files with a password, but I didn't test whether it supports the newer PFX encryption algorithms (password protection method), it will likely still work for your PFX file (also known as P12 / PKCS#12).
+
 ### GNOME Seahorse
 ![This is a Linux-only software.](https://img.shields.io/badge/Linux-yellow) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://wiki.gnome.org/Apps/Seahorse)
 
@@ -338,6 +348,17 @@ Bash, Zenity, Linux
 ![Cypt running on Mac OS.](https://i.postimg.cc/0Nq7Md06/502872-4.png)
 
 Nice and clean PGP GUI for Mac OS. Proprietary.
+
+### GPG Suite
+![This is a Mac OS-only software.](https://img.shields.io/badge/Mac_OS-lightgray) ![Paid and Open-Source software.](https://img.shields.io/badge/Paid-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://gpgtools.org/)
+
+![GPG Suite on Mac OS.](https://i.postimg.cc/Vs7PRnNn/gpgmail-new-message-1506349762.png)
+
+This is a paid GPG program for Mac OS, even if it's actually open-source. It allows you to create PGP keys, import and export keys, and it cans also send & receive PGP-encrypted emails (encrypt & decrypt).
+You can also fetch PGP keys from a PGP keyserver, and choose between PGP or S/MIME encryption for sending emails.
+
+Finally this program neatly integrates itself with the Mac OS Keychain and has a dedicated integration with the builtin Mac OS mail client.
+There's a 30-days free trial for this program, afterwards your emails can still be decrypted but no new emails can be sent with it.
 
 ### Smart Card Utility
 ![This is a Mac OS-only software.](https://img.shields.io/badge/Mac_OS-lightgray) ![Paid and Proprietary software.](https://img.shields.io/badge/Paid-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://twocanoes.com/products/mac/smart-card-utility/)
