@@ -216,6 +216,19 @@ You can finally as well prevent the use of plain passwords for Windows logon, ev
 ## Cross-Platform
 These programs can run of multiple operating systems (generally thanks to QtFramework or Java).
 
+### jSignPDF
+![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Open-Source software.](https://img.shields.io/badge/Free-Open--Source-green) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://github.com/intoolswetrust/jsignpdf)
+
+![jSignPDF on Linux](https://i.postimg.cc/0QB8tWh6/jsignpdf-javafx-main.png)
+
+This program is another rare PDF file signer similar to the Windows one from [SignFiles.com Signer Tools](#signfilescom-signer-tools) and the Linux one named [Simple Signer](#simple-signer), and also offers the ability to use a PFX file.
+
+jSignPDF cans sign PDF documents with a digital signature and an optional visible signature that you can easily place using the PDF preview window.
+You can also add a trusted timestamp to make the digitally signed document validate its signing time correctly (using a *Time Stamping Server* / *TSA*).
+
+This program supports PFX files with a password (PKCS#12) and also hardware signature devices and smartcards (PKCS#11).
+This more advanced tool cans also add long-term validation options to your digitally signed document to make sure that it stays valid even after your signing certificate expires
+
 ### Fortra Open PGP Studio
 ![This is a cross-platform software.](https://img.shields.io/badge/Cross--platform-gold) ![Free and Proprietary software.](https://img.shields.io/badge/Free-Proprietary-red) [![Visit the Homepage.](https://img.shields.io/badge/Homepage-blue)](https://www.goanywhere.com/products/open-pgp-studio)
 
